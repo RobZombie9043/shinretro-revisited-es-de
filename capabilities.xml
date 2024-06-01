@@ -2,13 +2,19 @@
    
    <themeName>shinretro (Revisited)</themeName>
    
-    <colorScheme name="shinretro-dark">
+    <colorScheme name="steamos">
+        <label>SteamOS</label>
+    </colorScheme>
+	<colorScheme name="shinretro-dark">
         <label>shinretro Dark</label>
     </colorScheme>
     <colorScheme name="dark">
         <label>Dark</label>
     </colorScheme>
-
+	<colorScheme name="ozonedark">
+        <label>OzoneDark</label>
+    </colorScheme>
+	
    <transitions name="transitions">
       <label>transitions</label>
       <selectable>false</selectable>

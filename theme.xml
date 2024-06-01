@@ -17,6 +17,19 @@ license:       creative commons CC-BY-NC-SA
       <fontMedium>./_inc/fonts/Montserrat-Medium.ttf</fontMedium>
    </variables>
 
+   <colorScheme name="steamos">
+      <variables>
+         <backgroundColor>2B2F38</backgroundColor>
+         <backgroundHighlightColor>2C345F</backgroundHighlightColor>
+         <helpIconColor>ffffff77</helpIconColor>
+         <helpTextColor>ffffff77</helpTextColor>
+         <systemLogoColor>ffffff</systemLogoColor>
+         <systemCarouselColor>424242</systemCarouselColor>
+         <systemGameCountColor>1A9FFF</systemGameCountColor>
+         <systemMetadataColor>ffffffbb</systemMetadataColor>
+         <gamelistGridColor>2B2F3800</gamelistGridColor>
+      </variables>
+   </colorScheme>
    <colorScheme name="shinretro-dark">
       <variables>
          <backgroundColor>25283B</backgroundColor>
@@ -27,7 +40,7 @@ license:       creative commons CC-BY-NC-SA
          <systemCarouselColor>2C345F</systemCarouselColor>
          <systemGameCountColor>757BA0</systemGameCountColor>
          <systemMetadataColor>ffffffbb</systemMetadataColor>
-         <gamelistGridColor>2C345F</gamelistGridColor>
+         <gamelistGridColor>25283B00</gamelistGridColor>
       </variables>
    </colorScheme>
    <colorScheme name="dark">
@@ -37,10 +50,23 @@ license:       creative commons CC-BY-NC-SA
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
-         <systemCarouselColor>111111</systemCarouselColor>
+         <systemCarouselColor>424242</systemCarouselColor>
          <systemGameCountColor>ecb83b</systemGameCountColor>
          <systemMetadataColor>ffffffbb</systemMetadataColor>
-         <gamelistGridColor>1a1a1a</gamelistGridColor>
+         <gamelistGridColor>11111100</gamelistGridColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="ozonedark">
+      <variables>
+         <backgroundColor>2D2D2D</backgroundColor>
+         <backgroundHighlightColor>2C345F</backgroundHighlightColor>
+         <helpIconColor>ffffff77</helpIconColor>
+         <helpTextColor>ffffff77</helpTextColor>
+         <systemLogoColor>ffffff</systemLogoColor>
+         <systemCarouselColor>424242</systemCarouselColor>
+         <systemGameCountColor>00D9AE</systemGameCountColor>
+         <systemMetadataColor>ffffffbb</systemMetadataColor>
+         <gamelistGridColor>2B2F3800</gamelistGridColor>
       </variables>
    </colorScheme>
 
@@ -75,7 +101,7 @@ license:       creative commons CC-BY-NC-SA
          <pos>0.098958333333333 0</pos><!-- 190 0 -->
          <size>0.401041666666667 1</size><!-- 770 1080 -->
          <path>./_inc/images/background-diagonal.svg</path>
-         <color>${backgroundHighlightColor}</color>
+         <color>${systemColor}</color>
          <zIndex>1</zIndex>
       </image>
       <carousel name="system-carousel">
@@ -136,7 +162,7 @@ license:       creative commons CC-BY-NC-SA
          <pos>0.625 0</pos><!-- 1200 0 -->
          <size>0.401041666666667 1</size><!-- 770 1080 -->
          <path>./_inc/images/background-diagonal.svg</path>
-         <color>${backgroundHighlightColor}</color>
+         <color>${systemColor}</color>
          <zIndex>1</zIndex>
       </image>
       <image name="game-metadata-background">
@@ -145,9 +171,15 @@ license:       creative commons CC-BY-NC-SA
          <size>0.104166666666667 1</size><!-- 200 1080 -->
          <path>${spacerImage}</path>
          <tile>true</tile>
-         <color>${backgroundHighlightColor}</color>
+         <color>${systemColor}</color>
          <zIndex>1</zIndex>
       </image>
+	  <image name="game-list-background">
+		 <pos>0 0</pos><!-- 80 180 -->
+         <size>1 1</size><!-- 1120 750 -->
+		  <imageType>fanart, screenshot</imageType>
+		  <opacity>0.1</opacity>
+	  </image>
       <image name="system-logo">
          <origin>0 0.5</origin>
          <pos>0.046875 0.083333333333333</pos><!-- 90 90 -->
@@ -162,12 +194,13 @@ license:       creative commons CC-BY-NC-SA
          <size>0.583333333333333 0.694444444444444</size><!-- 1120 750 -->
          <itemSize>0.135416666666667 0.212962962962963</itemSize><!-- 260 230 -->
          <itemSpacing>0.005208333333333 -1</itemSpacing><!-- 10 -->
-         <imageRelativeScale>0.8</imageRelativeScale>
+         <imageRelativeScale>0.9</imageRelativeScale>
          <backgroundColor>${gamelistGridColor}</backgroundColor>
-         <textRelativeScale>0.8</textRelativeScale>
+         <textRelativeScale>0.9</textRelativeScale>
          <textColor>ffffff</textColor>
          <fontPath>${fontMedium}</fontPath>
          <fontSize>0.02</fontSize>
+		 <imageType>cover, marquee</imageType>
          <lineSpacing>1</lineSpacing>
          <selectorImage>./_inc/images/grid-selector.svg</selectorImage>
          <unfocusedItemOpacity>0.4</unfocusedItemOpacity>
@@ -181,7 +214,7 @@ license:       creative commons CC-BY-NC-SA
       </video>
       <text name="game-name">
          <origin>0 0</origin>
-         <pos>0.7 0.5</pos><!-- 1300 580 -->
+         <pos>0.7 0.5</pos><!-- 1344 540 -->
          <size>0.265625 0.12962962962963</size><!-- 510 140 -->
          <fontSize>0.038888888888889</fontSize><!-- 42 -->
          <fontPath>${fontMediumSansSerif}</fontPath>
@@ -190,6 +223,20 @@ license:       creative commons CC-BY-NC-SA
          <color>ffffff</color>
          <metadata>name</metadata>
       </text>
+	  <datetime name="game-release-year">
+         <origin>0 0</origin>
+         <pos>0.7 0.462962962962963</pos><!-- 1344 500 -->
+         <size>0.265625 0.1851851851851852</size><!-- 510 200 -->
+         <fontSize>0.1851851851851852</fontSize><!-- 200 -->
+         <fontPath>${fontMediumSansSerif}</fontPath>
+         <lineSpacing>1</lineSpacing>
+         <verticalAlignment>top</verticalAlignment>
+         <color>${backgroundColor}</color>
+		 <opacity>0.4</opacity>
+         <metadata>releasedate</metadata>
+		 <defaultValue>:space:</defaultValue>
+		 <format>%Y</format>
+      </datetime>
       <badges name="badges">
          <pos>0.7 0.635</pos>
          <size>0.26875 0.018518518518519</size><!-- 516 20 -->
@@ -218,17 +265,17 @@ license:       creative commons CC-BY-NC-SA
          <overlay>false</overlay>
          <color>ffffff77</color>
       </rating>
-      <datetime name="game-release-date">
+      <text name="game-developer">
          <origin>0 0</origin>
-         <pos>0.768 0.68</pos><!-- 1300 580 -->
-         <size>0 0.022222222222222</size><!-- x 24 -->
-         <metadata>releasedate</metadata>
+         <pos>0.768 0.68</pos>
+         <size>0.17 0.022222222222222</size><!-- x 24 -->
+         <metadata>developer</metadata>
          <fontPath>${fontMedium}</fontPath>
          <fontSize>0.022222222222222</fontSize><!-- 24 -->
          <lineSpacing>1</lineSpacing>
-         <defaultValue>--</defaultValue>
+         <defaultValue>:space:</defaultValue>
          <color>ffffff77</color>
-      </datetime>
+      </text>
       <text name="game-description">
          <origin>0 1</origin>
          <pos>0.7 0.93</pos><!-- 1300 580 -->
