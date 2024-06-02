@@ -14,6 +14,9 @@
 	<colorScheme name="ozonedark">
         <label>OzoneDark</label>
     </colorScheme>
+	<colorScheme name="light">
+        <label>Light</label>
+    </colorScheme>
 	
    <transitions name="transitions">
       <label>transitions</label>

@@ -21,6 +21,7 @@ license:       creative commons CC-BY-NC-SA
       <variables>
          <backgroundColor>2B2F38</backgroundColor>
          <backgroundHighlightColor>2C345F</backgroundHighlightColor>
+		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
@@ -34,6 +35,7 @@ license:       creative commons CC-BY-NC-SA
       <variables>
          <backgroundColor>25283B</backgroundColor>
          <backgroundHighlightColor>2C345F</backgroundHighlightColor>
+		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
@@ -47,6 +49,7 @@ license:       creative commons CC-BY-NC-SA
       <variables>
          <backgroundColor>111111</backgroundColor>
          <backgroundHighlightColor>1a1a1a</backgroundHighlightColor>
+		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
@@ -60,12 +63,27 @@ license:       creative commons CC-BY-NC-SA
       <variables>
          <backgroundColor>2D2D2D</backgroundColor>
          <backgroundHighlightColor>2C345F</backgroundHighlightColor>
+		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
          <systemCarouselColor>424242</systemCarouselColor>
          <systemGameCountColor>00D9AE</systemGameCountColor>
          <systemMetadataColor>ffffffbb</systemMetadataColor>
+         <gamelistGridColor>2B2F3800</gamelistGridColor>
+      </variables>
+   </colorScheme>
+   <colorScheme name="light">
+      <variables>
+         <backgroundColor>ffffff</backgroundColor>
+         <backgroundHighlightColor>2C345F</backgroundHighlightColor>
+		 <backgroundHorizontalColor>ffffffB3</backgroundHorizontalColor>
+         <helpIconColor>11111177</helpIconColor>
+         <helpTextColor>11111177</helpTextColor>
+         <systemLogoColor>111111B3</systemLogoColor>
+         <systemCarouselColor>ffffff</systemCarouselColor>
+         <systemGameCountColor>10AEBE</systemGameCountColor>
+         <systemMetadataColor>111111B3</systemMetadataColor>
          <gamelistGridColor>2B2F3800</gamelistGridColor>
       </variables>
    </colorScheme>
@@ -103,6 +121,14 @@ license:       creative commons CC-BY-NC-SA
          <path>./_inc/images/background-diagonal.svg</path>
          <color>${systemColor}</color>
          <zIndex>1</zIndex>
+      </image>
+	  <image name="background-horizontal">
+         <origin>0 0</origin>
+         <pos>0 0</pos><!-- 0 0 -->
+         <size>1 1</size><!-- 1920 1080 -->
+         <path>./_inc/images/background-horizontal.png</path>
+		 <color>${backgroundHorizontalColor}</color>
+         <zIndex>3</zIndex>
       </image>
       <carousel name="system-carousel">
          <origin>0 0</origin>
