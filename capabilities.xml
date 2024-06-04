@@ -11,9 +11,6 @@
     <colorScheme name="dark">
         <label>Dark</label>
     </colorScheme>
-	<colorScheme name="ozonedark">
-        <label>OzoneDark</label>
-    </colorScheme>
 	<colorScheme name="light">
         <label>Light</label>
     </colorScheme>

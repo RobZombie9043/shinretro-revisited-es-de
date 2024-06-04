@@ -21,7 +21,6 @@ license:       creative commons CC-BY-NC-SA
       <variables>
          <backgroundColor>2B2F38</backgroundColor>
          <backgroundHighlightColor>2C345F</backgroundHighlightColor>
-		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
@@ -35,7 +34,6 @@ license:       creative commons CC-BY-NC-SA
       <variables>
          <backgroundColor>25283B</backgroundColor>
          <backgroundHighlightColor>2C345F</backgroundHighlightColor>
-		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
@@ -49,7 +47,6 @@ license:       creative commons CC-BY-NC-SA
       <variables>
          <backgroundColor>111111</backgroundColor>
          <backgroundHighlightColor>1a1a1a</backgroundHighlightColor>
-		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
          <helpIconColor>ffffff77</helpIconColor>
          <helpTextColor>ffffff77</helpTextColor>
          <systemLogoColor>ffffff</systemLogoColor>
@@ -59,31 +56,16 @@ license:       creative commons CC-BY-NC-SA
          <gamelistGridColor>11111100</gamelistGridColor>
       </variables>
    </colorScheme>
-   <colorScheme name="ozonedark">
-      <variables>
-         <backgroundColor>2D2D2D</backgroundColor>
-         <backgroundHighlightColor>2C345F</backgroundHighlightColor>
-		 <backgroundHorizontalColor>ffffff00</backgroundHorizontalColor>
-         <helpIconColor>ffffff77</helpIconColor>
-         <helpTextColor>ffffff77</helpTextColor>
-         <systemLogoColor>ffffff</systemLogoColor>
-         <systemCarouselColor>424242</systemCarouselColor>
-         <systemGameCountColor>00D9AE</systemGameCountColor>
-         <systemMetadataColor>ffffffbb</systemMetadataColor>
-         <gamelistGridColor>2B2F3800</gamelistGridColor>
-      </variables>
-   </colorScheme>
    <colorScheme name="light">
       <variables>
          <backgroundColor>ffffff</backgroundColor>
          <backgroundHighlightColor>2C345F</backgroundHighlightColor>
-		 <backgroundHorizontalColor>ffffffB3</backgroundHorizontalColor>
          <helpIconColor>11111177</helpIconColor>
          <helpTextColor>11111177</helpTextColor>
-         <systemLogoColor>111111B3</systemLogoColor>
-         <systemCarouselColor>ffffff</systemCarouselColor>
-         <systemGameCountColor>10AEBE</systemGameCountColor>
-         <systemMetadataColor>111111B3</systemMetadataColor>
+         <systemLogoColor>ffffff</systemLogoColor>
+         <systemCarouselColor>b2b2b2</systemCarouselColor>
+         <systemGameCountColor>3fbecb</systemGameCountColor>
+         <systemMetadataColor>ffffff</systemMetadataColor>
          <gamelistGridColor>2B2F3800</gamelistGridColor>
       </variables>
    </colorScheme>
@@ -121,14 +103,6 @@ license:       creative commons CC-BY-NC-SA
          <path>./_inc/images/background-diagonal.svg</path>
          <color>${systemColor}</color>
          <zIndex>1</zIndex>
-      </image>
-	  <image name="background-horizontal">
-         <origin>0 0</origin>
-         <pos>0 0</pos><!-- 0 0 -->
-         <size>1 1</size><!-- 1920 1080 -->
-         <path>./_inc/images/background-horizontal.png</path>
-		 <color>${backgroundHorizontalColor}</color>
-         <zIndex>3</zIndex>
       </image>
       <carousel name="system-carousel">
          <origin>0 0</origin>
@@ -191,7 +165,7 @@ license:       creative commons CC-BY-NC-SA
          <color>${systemColor}</color>
          <zIndex>1</zIndex>
       </image>
-      <image name="game-metadata-background">
+	  <image name="game-metadata-background">
          <origin>1 0</origin>
          <pos>1 0</pos>
          <size>0.104166666666667 1</size><!-- 200 1080 -->
@@ -200,15 +174,24 @@ license:       creative commons CC-BY-NC-SA
          <color>${systemColor}</color>
          <zIndex>1</zIndex>
       </image>
+	  <image name="background-header">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/images/background-header.png</path>
+         <color>${systemColor}</color>
+         <zIndex>3</zIndex>
+      </image>
 	  <image name="game-list-background">
-		 <pos>0 0</pos><!-- 80 180 -->
-         <size>1 1</size><!-- 1120 750 -->
+		 <pos>0 0.0462962962962963</pos><!-- 0 50 -->
+         <size>1 1</size><!-- 1920 1080 -->
 		  <imageType>fanart, screenshot</imageType>
 		  <opacity>0.1</opacity>
+		  <zIndex>2</zIndex>
 	  </image>
       <image name="system-logo">
          <origin>0 0.5</origin>
-         <pos>0.046875 0.083333333333333</pos><!-- 90 90 -->
+         <pos>0.0416666666666667 0.0462962962962963</pos><!-- 80 50 -->
          <maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
          <path>./_inc/systems/logos/${system.theme}.svg</path>
       </image>
