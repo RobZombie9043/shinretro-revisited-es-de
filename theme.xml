@@ -186,7 +186,7 @@ license:       creative commons CC-BY-NC-SA
 		 <pos>0 0.0462962962962963</pos><!-- 0 50 -->
          <size>1 1</size><!-- 1920 1080 -->
 		  <imageType>fanart, screenshot</imageType>
-		  <opacity>0.1</opacity>
+		  <opacity>0.2</opacity>
 		  <zIndex>2</zIndex>
 	  </image>
       <image name="system-logo">
@@ -212,7 +212,7 @@ license:       creative commons CC-BY-NC-SA
 		 <imageType>cover, marquee</imageType>
          <lineSpacing>1</lineSpacing>
          <selectorImage>./_inc/images/grid-selector.svg</selectorImage>
-         <unfocusedItemOpacity>0.4</unfocusedItemOpacity>
+         <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
       </grid>
       <video name="game-media">
          <origin>0.5 0.5</origin>
