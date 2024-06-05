@@ -15,6 +15,7 @@ license:       creative commons CC-BY-NC-SA
       <spacerImage>./_inc/images/space.png</spacerImage>
       <fontMediumSansSerif>./_inc/fonts/RobotoSlab-Medium.ttf</fontMediumSansSerif>
       <fontMedium>./_inc/fonts/Montserrat-Medium.ttf</fontMedium>
+	  <fontShadow>./_inc/fonts/nexa-rust.slab-black-shadow-01.otf</fontShadow>
    </variables>
 
    <colorScheme name="steamos">
@@ -28,6 +29,11 @@ license:       creative commons CC-BY-NC-SA
          <systemGameCountColor>1A9FFF</systemGameCountColor>
          <systemMetadataColor>ffffffbb</systemMetadataColor>
          <gamelistGridColor>2B2F3800</gamelistGridColor>
+		 <gamelistGameNameColor>ffffff</gamelistGameNameColor>
+		 <gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+		 <gamelistMetadataColor>ffffff77</gamelistMetadataColor>
+		 <gamelistGridMetadataColor>ffffff77</gamelistGridMetadataColor>
+		 <gamelistBadgeColor>ffffff</gamelistBadgeColor>
       </variables>
    </colorScheme>
    <colorScheme name="shinretro-dark">
@@ -41,6 +47,11 @@ license:       creative commons CC-BY-NC-SA
          <systemGameCountColor>757BA0</systemGameCountColor>
          <systemMetadataColor>ffffffbb</systemMetadataColor>
          <gamelistGridColor>25283B00</gamelistGridColor>
+		 <gamelistGameNameColor>ffffff</gamelistGameNameColor>
+		 <gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+		 <gamelistMetadataColor>ffffff77</gamelistMetadataColor>
+		 <gamelistGridMetadataColor>ffffff77</gamelistGridMetadataColor>
+		 <gamelistBadgeColor>ffffff</gamelistBadgeColor>
       </variables>
    </colorScheme>
    <colorScheme name="dark">
@@ -54,6 +65,11 @@ license:       creative commons CC-BY-NC-SA
          <systemGameCountColor>ecb83b</systemGameCountColor>
          <systemMetadataColor>ffffffbb</systemMetadataColor>
          <gamelistGridColor>11111100</gamelistGridColor>
+		 <gamelistGameNameColor>ffffff</gamelistGameNameColor>
+		 <gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+		 <gamelistMetadataColor>ffffff77</gamelistMetadataColor>
+		 <gamelistGridMetadataColor>ffffff77</gamelistGridMetadataColor>
+		 <gamelistBadgeColor>ffffff</gamelistBadgeColor>
       </variables>
    </colorScheme>
    <colorScheme name="light">
@@ -67,6 +83,11 @@ license:       creative commons CC-BY-NC-SA
          <systemGameCountColor>3fbecb</systemGameCountColor>
          <systemMetadataColor>ffffff</systemMetadataColor>
          <gamelistGridColor>2B2F3800</gamelistGridColor>
+		 <gamelistGameNameColor>666666</gamelistGameNameColor>
+		 <gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+		 <gamelistMetadataColor>808080</gamelistMetadataColor>
+		 <gamelistGridMetadataColor>ffffff</gamelistGridMetadataColor>
+		 <gamelistBadgeColor>ffffff</gamelistBadgeColor>
       </variables>
    </colorScheme>
 
@@ -155,153 +176,283 @@ license:       creative commons CC-BY-NC-SA
          <pos>0.677083333333333 .91</pos>
       </helpsystem>
    </view>
+   
+   <!--
+   ///
+   Gamelist View: Common
+   ///
+   -->
 
    <view name="gamelist">
-      <image name="background-diagonal">
-         <origin>0 0</origin>
-         <pos>0.625 0</pos><!-- 1200 0 -->
-         <size>0.401041666666667 1</size><!-- 770 1080 -->
-         <path>./_inc/images/background-diagonal.svg</path>
-         <color>${systemColor}</color>
-         <zIndex>1</zIndex>
-      </image>
+	  <image name="background-diagonal">
+		 <origin>0 0</origin>
+		 <pos>0.625 0</pos><!-- 1200 0 -->
+		 <size>0.401041666666667 1</size><!-- 770 1080 -->
+		 <path>./_inc/images/background-diagonal.svg</path>
+		 <color>${systemColor}</color>
+		 <zIndex>1</zIndex>
+	  </image>
 	  <image name="game-metadata-background">
-         <origin>1 0</origin>
-         <pos>1 0</pos>
-         <size>0.104166666666667 1</size><!-- 200 1080 -->
-         <path>${spacerImage}</path>
-         <tile>true</tile>
-         <color>${systemColor}</color>
-         <zIndex>1</zIndex>
-      </image>
+		 <origin>1 0</origin>
+		 <pos>1 0</pos>
+		 <size>0.104166666666667 1</size><!-- 200 1080 -->
+		 <path>${spacerImage}</path>
+		 <tile>true</tile>
+		 <color>${systemColor}</color>
+		 <zIndex>1</zIndex>
+	  </image>
 	  <image name="background-header">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <path>./_inc/images/background-header.png</path>
-         <color>${systemColor}</color>
-         <zIndex>3</zIndex>
-      </image>
+		 <origin>0 0</origin>
+		 <pos>0 0</pos>
+		 <size>1 1</size>
+		 <path>./_inc/images/background-header.png</path>
+		 <color>${systemColor}</color>
+		 <zIndex>3</zIndex>
+	  </image>
 	  <image name="game-list-background">
 		 <pos>0 0.0462962962962963</pos><!-- 0 50 -->
-         <size>1 1</size><!-- 1920 1080 -->
+		 <size>1 1</size><!-- 1920 1080 -->
 		  <imageType>fanart, screenshot</imageType>
 		  <opacity>0.2</opacity>
 		  <zIndex>2</zIndex>
 	  </image>
-      <image name="system-logo">
-         <origin>0 0.5</origin>
-         <pos>0.0416666666666667 0.0462962962962963</pos><!-- 80 50 -->
-         <maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
-         <path>./_inc/systems/logos/${system.theme}.svg</path>
-      </image>
-      <text name="custom-collection-name">
-         <fontPath>${fontMedium}</fontPath>
-      </text>
-      <grid name="game-list">
-         <pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
-         <size>0.583333333333333 0.694444444444444</size><!-- 1120 750 -->
-         <itemSize>0.135416666666667 0.212962962962963</itemSize><!-- 260 230 -->
-         <itemSpacing>0.005208333333333 -1</itemSpacing><!-- 10 -->
-         <imageRelativeScale>0.9</imageRelativeScale>
-         <backgroundColor>${gamelistGridColor}</backgroundColor>
-         <textRelativeScale>0.9</textRelativeScale>
-         <textColor>ffffff</textColor>
-         <fontPath>${fontMedium}</fontPath>
-         <fontSize>0.02</fontSize>
-		 <imageType>cover, marquee</imageType>
-         <lineSpacing>1</lineSpacing>
-         <selectorImage>./_inc/images/grid-selector.svg</selectorImage>
-         <unfocusedItemOpacity>0.5</unfocusedItemOpacity>
-      </grid>
-      <video name="game-media">
-         <origin>0.5 0.5</origin>
-         <pos>0.822916666666667 0.25</pos><!-- 1580 270 -->
-         <cropSize>0.291666666666667 0.388888888888889</cropSize><!-- 560 420 -->
-         <imageType>miximage,screenshot,titlescreen,fanart</imageType>
-         <delay>1.5</delay>
-      </video>
-      <text name="game-name">
-         <origin>0 0</origin>
-         <pos>0.7 0.5</pos><!-- 1344 540 -->
-         <size>0.265625 0.12962962962963</size><!-- 510 140 -->
-         <fontSize>0.038888888888889</fontSize><!-- 42 -->
-         <fontPath>${fontMediumSansSerif}</fontPath>
-         <lineSpacing>1</lineSpacing>
-         <verticalAlignment>top</verticalAlignment>
-         <color>ffffff</color>
-         <metadata>name</metadata>
-      </text>
-	  <datetime name="game-release-year">
-         <origin>0 0</origin>
-         <pos>0.7 0.462962962962963</pos><!-- 1344 500 -->
-         <size>0.265625 0.1851851851851852</size><!-- 510 200 -->
-         <fontSize>0.1851851851851852</fontSize><!-- 200 -->
-         <fontPath>${fontMediumSansSerif}</fontPath>
-         <lineSpacing>1</lineSpacing>
-         <verticalAlignment>top</verticalAlignment>
-         <color>${backgroundColor}</color>
-		 <opacity>0.4</opacity>
-         <metadata>releasedate</metadata>
-		 <defaultValue>:space:</defaultValue>
-		 <format>%Y</format>
-      </datetime>
-      <badges name="badges">
-         <pos>0.7 0.635</pos>
-         <size>0.26875 0.018518518518519</size><!-- 516 20 -->
-         <itemMargin>0.002 -1</itemMargin>
-         <lines>1</lines>
-         <itemsPerLine>8</itemsPerLine>
-         <slots>all</slots>
-         <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
-         <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
-         <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
-         <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
-         <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
-         <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
-         <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
-         <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
-         <badgeIconColor>ffffffaa</badgeIconColor>
-         <controllerSize>0.8</controllerSize>
-         <folderLinkSize>0.8</folderLinkSize>
-      </badges>
-      <rating name="game-rating">
-         <origin>0 0</origin>
-         <pos>0.7 0.68</pos>
-         <size>0 0.02037037037037</size><!-- x 22 -->
-         <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
-         <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
-         <overlay>false</overlay>
-         <color>ffffff77</color>
-      </rating>
-      <text name="game-developer">
-         <origin>0 0</origin>
-         <pos>0.768 0.68</pos>
-         <size>0.17 0.022222222222222</size><!-- x 24 -->
-         <metadata>developer</metadata>
-         <fontPath>${fontMedium}</fontPath>
-         <fontSize>0.022222222222222</fontSize><!-- 24 -->
-         <lineSpacing>1</lineSpacing>
-         <defaultValue>:space:</defaultValue>
-         <color>ffffff77</color>
-      </text>
-      <text name="game-description">
-         <origin>0 1</origin>
-         <pos>0.7 0.93</pos><!-- 1300 580 -->
-         <size>0.260416666666667 0.208</size><!-- 500 140 -->
-         <fontSize>0.022222222222222</fontSize><!-- 24 -->
-         <fontPath>${fontMedium}</fontPath>
-         <verticalAlignment>top</verticalAlignment>
-         <color>ffffffdd</color>
-         <metadata>description</metadata>
-         <container>true</container>
-         <containerStartDelay>8</containerStartDelay>
-      </text>
-      <helpsystem name="help">
-         <origin>0 1</origin>
-         <pos>0.046875 0.925</pos><!-- 90 90 -->
-      </helpsystem>
-   </view>
+	  <image name="system-logo">
+		 <origin>0 0.5</origin>
+		 <pos>0.0416666666666667 0.0462962962962963</pos><!-- 80 50 -->
+		 <maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
+		 <path>./_inc/systems/logos/${system.theme}.svg</path>
+	  </image>
+	  <text name="custom-collection-name">
+		 <fontPath>${fontMedium}</fontPath>
+	  </text>
+	   <helpsystem name="help">
+			 <origin>0 1</origin>
+			 <pos>0.046875 0.925</pos><!-- 90 90 -->
+	   </helpsystem>
+	</view>
+   
+   <!--
+   ///
+   Gamelist View: Grid
+   ///
+   -->
+ 
+   <variant name="grid">
+		<view name="gamelist">
+		  <grid name="game-list">
+			 <pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
+			 <size>0.583333333333333 0.694444444444444</size><!-- 1120 750 -->
+			 <itemSize>0.135416666666667 0.212962962962963</itemSize><!-- 260 230 -->
+			 <itemSpacing>0.005208333333333 -1</itemSpacing><!-- 10 -->
+			 <imageRelativeScale>0.9</imageRelativeScale>
+			 <backgroundColor>${gamelistGridColor}</backgroundColor>
+			 <textRelativeScale>0.9</textRelativeScale>
+			 <textColor>${gamelistGridMetadataColor}</textColor>
+			 <fontPath>${fontMedium}</fontPath>
+			 <fontSize>0.02</fontSize>
+			 <imageType>cover, marquee</imageType>
+			 <lineSpacing>1</lineSpacing>
+			 <selectorImage>./_inc/images/grid-selector.svg</selectorImage>
+			 <unfocusedItemOpacity>1</unfocusedItemOpacity>
+			 <unfocusedItemDimming>0.5</unfocusedItemDimming>
+			 <zIndex>4</zIndex>
+		  </grid>
+		  <text name="game-name">
+			 <origin>0 0</origin>
+			 <pos>0.7 0.5</pos><!-- 1344 540 -->
+			 <size>0.265625 0.12962962962963</size><!-- 510 140 -->
+			 <fontSize>0.038888888888889</fontSize><!-- 42 -->
+			 <fontPath>${fontMediumSansSerif}</fontPath>
+			 <lineSpacing>1</lineSpacing>
+			 <verticalAlignment>top</verticalAlignment>
+			 <color>${gamelistGridGameNameColor}</color>
+			 <metadata>name</metadata>
+		  </text>
+		  <datetime name="game-release-year">
+			 <origin>0 0</origin>
+			 <pos>0.7 0.462962962962963</pos><!-- 1344 500 -->
+			 <size>0 0</size><!-- 510 200 -->
+			 <fontSize>0.16</fontSize><!--  -->
+			 <fontPath>${fontShadow}</fontPath>
+			 <lineSpacing>1</lineSpacing>
+			 <verticalAlignment>top</verticalAlignment>
+			 <color>${backgroundColor}</color>
+			 <opacity>0.4</opacity>
+			 <metadata>releasedate</metadata>
+			 <defaultValue>:space:</defaultValue>
+			 <format>%Y</format>
+		  </datetime>
+		  <badges name="badges">
+			 <pos>0.7 0.635</pos>
+			 <size>0.26875 0.018518518518519</size><!-- 516 20 -->
+			 <itemMargin>0.002 -1</itemMargin>
+			 <lines>1</lines>
+			 <itemsPerLine>8</itemsPerLine>
+			 <slots>all</slots>
+			 <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+			 <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+			 <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+			 <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+			 <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+			 <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+			 <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+			 <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+			 <badgeIconColor>${gamelistBadgeColor}</badgeIconColor>
+			 <controllerSize>0.8</controllerSize>
+			 <folderLinkSize>0.8</folderLinkSize>
+		  </badges>
+		  <rating name="game-rating">
+			 <origin>0 0</origin>
+			 <pos>0.7 0.68</pos>
+			 <size>0 0.02037037037037</size><!-- x 22 -->
+			 <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+			 <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+			 <overlay>false</overlay>
+			 <color>${gamelistGridMetadataColor}</color>
+		  </rating>
+		  <text name="game-developer">
+			 <origin>0 0</origin>
+			 <pos>0.768 0.68</pos>
+			 <size>0.17 0.022222222222222</size><!-- x 24 -->
+			 <metadata>developer</metadata>
+			 <fontPath>${fontMedium}</fontPath>
+			 <fontSize>0.022222222222222</fontSize><!-- 24 -->
+			 <lineSpacing>1</lineSpacing>
+			 <defaultValue>:space:</defaultValue>
+			 <color>${gamelistGridMetadataColor}</color>
+		  </text>
+		  <text name="game-description">
+			 <origin>0 1</origin>
+			 <pos>0.7 0.93</pos><!-- 1300 580 -->
+			 <size>0.260416666666667 0.208</size><!-- 500 140 -->
+			 <fontSize>0.022222222222222</fontSize><!-- 24 -->
+			 <fontPath>${fontMedium}</fontPath>
+			 <verticalAlignment>top</verticalAlignment>
+			 <color>${gamelistGridMetadataColor}</color>
+			 <metadata>description</metadata>
+			 <container>true</container>
+			 <containerStartDelay>8</containerStartDelay>
+		  </text>
+		  <video name="game-media">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.822916666666667 0.25</pos><!-- 1580 270 -->
+			 <cropSize>0.291666666666667 0.388888888888889</cropSize><!-- 560 420 -->
+			 <imageType>miximage,screenshot,titlescreen,fanart</imageType>
+			 <delay>1.5</delay>
+	      </video>
+	    </view>
+   </variant>
+
+   <!--
+   ///
+   Gamelist View: Carousel
+   ///
+   -->
+   
+   <variant name="carousel">
+		<view name="gamelist">
+		  <carousel name="game-list">
+			 <pos>0 0.59666667</pos><!-- 0 644.4  -->
+			 <size>1 0.29</size><!--  -->
+			 <itemSize>0.1625 0.241666667</itemSize><!-- 312 276 -->
+			 <maxItemCount>5</maxItemCount>
+			 <imageType>cover, marquee</imageType> 
+			 <textRelativeScale>0.9</textRelativeScale>
+			 <textColor>ffffff</textColor>
+			 <fontPath>${fontMedium}</fontPath>
+			 <fontSize>0.02</fontSize>
+			 <unfocusedItemOpacity>1</unfocusedItemOpacity>
+			 <unfocusedItemDimming>0.5</unfocusedItemDimming>			 
+			 <fastScrolling>true</fastScrolling>
+			 <color>00000000</color>
+			 <zIndex>4</zIndex>
+		  </carousel>
+		  <text name="game-name">
+			 <origin>0 0</origin>
+			 <pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
+			 <size>0.4166666666666667 0.12962962962963</size><!-- 800 140 -->
+			 <fontSize>0.0601851851851852</fontSize><!-- 65 -->
+			 <fontPath>${fontMediumSansSerif}</fontPath>
+			 <lineSpacing>1</lineSpacing>
+			 <verticalAlignment>top</verticalAlignment>
+			 <color>${gamelistGameNameColor}</color>
+			 <metadata>name</metadata>
+		  </text>
+		  <datetime name="game-release-year">
+			 <origin>0 0</origin>
+			 <pos>0.4791666666666667 0.1574074074074074</pos><!-- 920 170 -->
+			 <size>0 0</size><!-- 510 200 -->
+			 <fontSize>0.1</fontSize><!-- 108 -->
+			 <fontPath>${fontShadow}</fontPath>
+			 <lineSpacing>1</lineSpacing>
+			 <verticalAlignment>top</verticalAlignment>
+			 <color>${gamelistGameNameColor}</color>
+			 <opacity>0.4</opacity>
+			 <metadata>releasedate</metadata>
+			 <defaultValue>:space:</defaultValue>
+			 <format>%Y</format>
+		  </datetime>
+		  <badges name="badges">
+			 <pos>0.041666666666667 0.30166667</pos> <!-- 80 325.8 -->
+			 <size>0.26875 0.018518518518519</size><!-- 516 20 -->
+			 <itemMargin>0.002 -1</itemMargin>
+			 <lines>1</lines>
+			 <itemsPerLine>8</itemsPerLine>
+			 <slots>all</slots>
+			 <customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
+			 <customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
+			 <customBadgeIcon badge="completed">./_inc/images/badge-completed.svg</customBadgeIcon>
+			 <customBadgeIcon badge="favorite">./_inc/images/badge-favorite.svg</customBadgeIcon>
+			 <customBadgeIcon badge="kidgame">./_inc/images/badge-kidgame.svg</customBadgeIcon>
+			 <customBadgeIcon badge="collection">./_inc/images/badge-collection.svg</customBadgeIcon>
+			 <customBadgeIcon badge="controller">./_inc/images/badge-controller.svg</customBadgeIcon>
+			 <customBadgeIcon badge="altemulator">./_inc/images/badge-altemulator.svg</customBadgeIcon>
+			 <badgeIconColor>${gamelistBadgeColor}</badgeIconColor>
+			 <controllerSize>0.8</controllerSize>
+			 <folderLinkSize>0.8</folderLinkSize>
+		  </badges>
+		  <rating name="game-rating">
+			 <origin>0 0</origin>
+			 <pos>0.041666666666667 0.34666667</pos> <!-- 80 374.4 -->
+			 <size>0 0.02037037037037</size><!-- x 22 -->
+			 <filledPath>./_inc/images/icon-star-filled.svg</filledPath>
+			 <unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
+			 <overlay>false</overlay>
+			 <color>${gamelistMetadataColor}</color>
+		  </rating>
+		  <text name="game-developer">
+			 <origin>0 0</origin>
+			 <pos>0.10989583 0.34666667</pos> <!-- 211 374.4 -->
+			 <size>0.17 0.022222222222222</size><!-- x 24 -->
+			 <metadata>developer</metadata>
+			 <fontPath>${fontMedium}</fontPath>
+			 <fontSize>0.022222222222222</fontSize><!-- 24 -->
+			 <lineSpacing>1</lineSpacing>
+			 <defaultValue>:space:</defaultValue>
+			 <color>${gamelistMetadataColor}</color>
+		  </text>
+		  <text name="game-description">
+			 <origin>0 1</origin>
+			 <pos>0.041666666666667 0.59666667</pos><!-- 80 644.4 -->
+			 <size>0.6 0.208</size><!-- 500 140 -->
+			 <fontSize>0.022222222222222</fontSize><!-- 24 -->
+			 <fontPath>${fontMedium}</fontPath>
+			 <verticalAlignment>top</verticalAlignment>
+			 <color>${gamelistMetadataColor}</color>
+			 <metadata>description</metadata>
+			 <container>true</container>
+			 <containerStartDelay>8</containerStartDelay>
+		  </text>
+		  <video name="game-media">
+			 <origin>0.5 0.5</origin>
+			 <pos>0.822916666666667 0.36111111</pos><!-- 1580 390 -->
+			 <cropSize>0.291666666666667 0.388888888888889</cropSize><!-- 560 420 -->
+			 <imageType>miximage,screenshot,titlescreen,fanart</imageType>
+			 <delay>1.5</delay>
+	   </video>
+	   </view>
+
+   </variant>
 
    <view name="all">
       <sound name="systembrowse">
