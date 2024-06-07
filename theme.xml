@@ -31,8 +31,8 @@ license:       creative commons CC-BY-NC-SA
          <gamelistGridColor>2B2F3800</gamelistGridColor>
 		 <gamelistGameNameColor>ffffff</gamelistGameNameColor>
 		 <gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-		 <gamelistMetadataColor>ffffff77</gamelistMetadataColor>
-		 <gamelistGridMetadataColor>ffffff77</gamelistGridMetadataColor>
+		 <gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
+		 <gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
 		 <gamelistBadgeColor>ffffff</gamelistBadgeColor>
       </variables>
    </colorScheme>
@@ -49,8 +49,8 @@ license:       creative commons CC-BY-NC-SA
          <gamelistGridColor>25283B00</gamelistGridColor>
 		 <gamelistGameNameColor>ffffff</gamelistGameNameColor>
 		 <gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-		 <gamelistMetadataColor>ffffff77</gamelistMetadataColor>
-		 <gamelistGridMetadataColor>ffffff77</gamelistGridMetadataColor>
+		 <gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
+		 <gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
 		 <gamelistBadgeColor>ffffff</gamelistBadgeColor>
       </variables>
    </colorScheme>
@@ -67,8 +67,8 @@ license:       creative commons CC-BY-NC-SA
          <gamelistGridColor>11111100</gamelistGridColor>
 		 <gamelistGameNameColor>ffffff</gamelistGameNameColor>
 		 <gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-		 <gamelistMetadataColor>ffffff77</gamelistMetadataColor>
-		 <gamelistGridMetadataColor>ffffff77</gamelistGridMetadataColor>
+		 <gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
+		 <gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
 		 <gamelistBadgeColor>ffffff</gamelistBadgeColor>
       </variables>
    </colorScheme>
