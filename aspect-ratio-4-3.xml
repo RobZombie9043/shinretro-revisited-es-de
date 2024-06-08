@@ -1,6 +1,6 @@
 <!-- 
 16:9 aspect ratio
-based on 1920x1080 [853x480]
+based on 1440x1080
 -->
 <theme>
 
@@ -27,8 +27,8 @@ based on 1920x1080 [853x480]
 			<size>0.401041666666667 1</size><!-- 770 1080 -->
 		</image>
 		<carousel name="system-carousel">
-			<itemSize>0.213541666666667 0.583333333333333</itemSize><!-- 410 630 -->
-			<maxItemCount>7</maxItemCount>
+			<itemSize>0.2847222222222222 0.583333333333333</itemSize><!-- 410 630 [307.5 630]-->
+			<maxItemCount>6</maxItemCount>
 		</carousel>
 		<image name="system-logo">
 			<pos>0.677083333333333 0.45</pos><!-- 1300 -->
@@ -70,7 +70,7 @@ based on 1920x1080 [853x480]
 			<maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
 		</image>
 		<helpsystem name="help">
-			<pos>0.046875 0.925</pos><!-- 90 90 -->
+			<pos>0.046875 0.965</pos><!-- 90 90 -->
 		</helpsystem>
 		</view>
 		
@@ -82,7 +82,7 @@ based on 1920x1080 [853x480]
 	<variant name="grid">
 		<view name="gamelist">
 			<grid name="game-list">
-				<pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
+				<pos>0.041666666666667 0.19</pos><!-- 80 180 -->
 				<size>0.583333333333333 0.694444444444444</size><!-- 1120 750 -->
 				<itemSize>0.135416666666667 0.212962962962963</itemSize><!-- 260 230 -->
 				<itemSpacing>0.005208333333333 -1</itemSpacing><!-- 10 -->
@@ -96,7 +96,7 @@ based on 1920x1080 [853x480]
 			<datetime name="game-release-year">
 				<pos>0.7 0.462962962962963</pos><!-- 1344 500 -->
 				<size>0 0</size><!-- 510 200 -->
-				<fontSize>0.16</fontSize><!--  -->
+				<fontSize>0.14</fontSize><!--  -->
 			</datetime>
 			<badges name="badges">
 				<pos>0.7 0.635</pos>
@@ -108,7 +108,7 @@ based on 1920x1080 [853x480]
 				<size>0 0.02037037037037</size><!-- x 22 -->
 			</rating>
 			<text name="game-developer">
-				<pos>0.768 0.68</pos>
+				<pos>0.785 0.68</pos>
 				<size>0.17 0.022222222222222</size><!-- x 24 -->
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
@@ -118,8 +118,8 @@ based on 1920x1080 [853x480]
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
 			<video name="game-media">
-				<pos>0.822916666666667 0.25</pos><!-- 1580 270 -->
-				<cropSize>0.291666666666667 0.388888888888889</cropSize><!-- 560 420 -->
+				<pos>0.822916666666667 0.3</pos><!-- 1580 270 -->
+				<cropSize>0.291666666666667 0.2916666666666667</cropSize><!-- 560 420 [420 315]-->
 			</video>
 		</view>
 	</variant>
@@ -132,7 +132,7 @@ based on 1920x1080 [853x480]
 	<variant name="carousel">
 		<view name="gamelist">
 			<carousel name="game-list">
-				<pos>0 0.59666667</pos><!-- 0 644.4  -->
+				<pos>0 0.62</pos><!-- 0 644.4  -->
 				<size>1 0.29</size><!--  -->
 				<itemSize>0.1625 0.241666667</itemSize><!-- 312 276 -->
 				<maxItemCount>5</maxItemCount>
@@ -140,11 +140,11 @@ based on 1920x1080 [853x480]
 			</carousel>
 			<text name="game-name">
 				<pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
-				<size>0.4166666666666667 0.12962962962963</size><!-- 800 140 -->
-				<fontSize>0.0601851851851852</fontSize><!-- 65 -->
+				<size>0.39 0.12962962962963</size><!-- 800 140 -->
+				<fontSize>0.043</fontSize><!-- 65 -->
 			</text>
 			<datetime name="game-release-year">
-				<pos>0.4791666666666667 0.1574074074074074</pos><!-- 920 170 -->
+				<pos>0.44 0.1574074074074074</pos><!-- 920 170 -->
 				<size>0 0</size><!-- 510 200 -->
 				<fontSize>0.1</fontSize><!-- 108 -->
 			</datetime>
@@ -158,7 +158,7 @@ based on 1920x1080 [853x480]
 				<size>0 0.02037037037037</size><!-- x 22 -->
 			</rating>
 			<text name="game-developer">
-				<pos>0.10989583 0.34666667</pos> <!-- 211 374.4 -->
+				<pos>0.13 0.34666667</pos> <!-- 211 374.4 -->
 				<size>0.17 0.022222222222222</size><!-- x 24 -->
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
@@ -169,7 +169,7 @@ based on 1920x1080 [853x480]
 			</text>
 			<video name="game-media">
 				<pos>0.822916666666667 0.36111111</pos><!-- 1580 390 -->
-				<cropSize>0.291666666666667 0.388888888888889</cropSize><!-- 560 420 -->
+				<cropSize>0.291666666666667 0.2916666666666667</cropSize><!-- 560 420 [420 315]-->
 			</video>
 		</view>
 	</variant>

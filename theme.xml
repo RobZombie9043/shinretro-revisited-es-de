@@ -136,7 +136,6 @@ license:       creative commons CC-BY-NC-SA
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<horizontalOffset>-0.2</horizontalOffset>
-			<maxItemCount>7</maxItemCount>
 			<unfocusedItemOpacity>1</unfocusedItemOpacity>
 			<unfocusedItemSaturation>0</unfocusedItemSaturation>
 			<unfocusedItemDimming>1</unfocusedItemDimming>
@@ -202,7 +201,7 @@ license:       creative commons CC-BY-NC-SA
 			<zIndex>3</zIndex>
 		</image>
 		<image name="game-list-background">
-			<size>1 1</size><!-- 1920 1080 -->
+			<size>1 1</size>
 			<imageType>fanart, screenshot</imageType>
 			<opacity>0.2</opacity>
 			<zIndex>2</zIndex>
@@ -401,6 +400,9 @@ license:       creative commons CC-BY-NC-SA
 	<aspectRatio name="16:9">
 		<include>./aspect-ratio-16-9.xml</include>
 	</aspectRatio>
+	<aspectRatio name="4:3">
+		<include>./aspect-ratio-4-3.xml</include>
+	</aspectRatio>
    
 	<!--
 	<aspectRatio name="16:10">
@@ -408,9 +410,6 @@ license:       creative commons CC-BY-NC-SA
 	</aspectRatio>
 	<aspectRatio name="3:2">
 		<include>./aspect-ratio-3-2.xml</include>
-	</aspectRatio>
-	<aspectRatio name="4:3">
-		<include>./aspect-ratio-4-3.xml</include>
 	</aspectRatio>
 	<aspectRatio name="5:4">
 		<include>./aspect-ratio-5-4.xml</include>
