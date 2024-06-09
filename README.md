@@ -4,7 +4,11 @@
 A port of the shinretro theme by [TiagraTT-Driver](https://github.com/TigraTT-Driver/shinretro) for ES-DE v3.0.
 
 ---
-## Preview
+## **Preview**
+
+| System View | Gamelist View |
+|----|----|
+| ![16-9 system](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/ced45973-59c1-4456-9a07-b881d93c4d59) | ![16-9 grid](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/f7a5ff56-c1e4-4a05-8654-0a6d04b7589f) |
 
 ---
 ## Acknowledgements
