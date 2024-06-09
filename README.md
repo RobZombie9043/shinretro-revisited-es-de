@@ -34,6 +34,8 @@ Initial work on porting theme to ES-DE by [ant](https://github.com/anthonycacces
 
 Based on original neoretrō theme by [Valentin MEZIN](https://github.com/valsou) and shinretro theme by [TigraTT-Driver](https://github.com/TigraTT-Driver) including use of system artwork.  
 
+Initial work on porting theme to ES-DE by [ant](https://github.com/anthonycaccese)
+
 Alekfull artwork created by [fagnerpc](https://github.com/fagnerpc)
 
 Android apps artwork - (https://wallpaperswide.com/android_robot_listening_to_music-wallpapers.html)  
