@@ -18,42 +18,6 @@ license:       creative commons CC-BY-NC-SA
 		<fontShadow>./_inc/fonts/nexa-rust.slab-black-shadow-01.otf</fontShadow>
 	</variables>
 
-	<colorScheme name="steamos">
-		<variables>
-			<backgroundColor>2B2F38</backgroundColor>
-			<backgroundHighlightColor>2C345F</backgroundHighlightColor>
-			<helpIconColor>ffffff77</helpIconColor>
-			<helpTextColor>ffffff77</helpTextColor>
-			<systemLogoColor>ffffff</systemLogoColor>
-			<systemCarouselColor>424242</systemCarouselColor>
-			<systemGameCountColor>1A9FFF</systemGameCountColor>
-			<systemMetadataColor>ffffffbb</systemMetadataColor>
-			<gamelistGridColor>2B2F3800</gamelistGridColor>
-			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
-			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
-			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
-			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
-		</variables>
-	</colorScheme>
-	<colorScheme name="shinretro-dark">
-		<variables>
-			<backgroundColor>25283B</backgroundColor>
-			<backgroundHighlightColor>2C345F</backgroundHighlightColor>
-			<helpIconColor>ffffff77</helpIconColor>
-			<helpTextColor>ffffff77</helpTextColor>
-			<systemLogoColor>ffffff</systemLogoColor>
-			<systemCarouselColor>2C345F</systemCarouselColor>
-			<systemGameCountColor>757BA0</systemGameCountColor>
-			<systemMetadataColor>ffffffbb</systemMetadataColor>
-			<gamelistGridColor>25283B00</gamelistGridColor>
-			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
-			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
-			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
-			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
-		</variables>
-	</colorScheme>
 	<colorScheme name="dark">
 		<variables>
 			<backgroundColor>111111</backgroundColor>
@@ -87,6 +51,42 @@ license:       creative commons CC-BY-NC-SA
 			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
 			<gamelistMetadataColor>808080</gamelistMetadataColor>
 			<gamelistGridMetadataColor>ffffff</gamelistGridMetadataColor>
+			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
+		</variables>
+	</colorScheme>
+	<colorScheme name="steamos">
+		<variables>
+			<backgroundColor>2B2F38</backgroundColor>
+			<backgroundHighlightColor>2C345F</backgroundHighlightColor>
+			<helpIconColor>ffffff77</helpIconColor>
+			<helpTextColor>ffffff77</helpTextColor>
+			<systemLogoColor>ffffff</systemLogoColor>
+			<systemCarouselColor>424242</systemCarouselColor>
+			<systemGameCountColor>1A9FFF</systemGameCountColor>
+			<systemMetadataColor>ffffffbb</systemMetadataColor>
+			<gamelistGridColor>2B2F3800</gamelistGridColor>
+			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
+			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
+			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
+			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
+		</variables>
+	</colorScheme>
+	<colorScheme name="shinretro-dark">
+		<variables>
+			<backgroundColor>25283B</backgroundColor>
+			<backgroundHighlightColor>2C345F</backgroundHighlightColor>
+			<helpIconColor>ffffff77</helpIconColor>
+			<helpTextColor>ffffff77</helpTextColor>
+			<systemLogoColor>ffffff</systemLogoColor>
+			<systemCarouselColor>2C345F</systemCarouselColor>
+			<systemGameCountColor>757BA0</systemGameCountColor>
+			<systemMetadataColor>ffffffbb</systemMetadataColor>
+			<gamelistGridColor>25283B00</gamelistGridColor>
+			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
+			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
+			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
 			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
 		</variables>
 	</colorScheme>

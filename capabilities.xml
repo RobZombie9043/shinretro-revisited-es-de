@@ -28,17 +28,17 @@
 	<fontSize>medium</fontSize>
 	<fontSize>large</fontSize>
    
-    <colorScheme name="steamos">
-		<label>SteamOS</label>
-    </colorScheme>
-	<colorScheme name="shinretro-dark">
-        <label>shinretro Dark</label>
-    </colorScheme>
     <colorScheme name="dark">
         <label>Dark</label>
     </colorScheme>
 	<colorScheme name="light">
         <label>Light</label>
+    </colorScheme>
+	    <colorScheme name="steamos">
+		<label>SteamOS</label>
+    </colorScheme>
+	<colorScheme name="shinretro-dark">
+        <label>shinretro Dark</label>
     </colorScheme>
 	
 	<transitions name="transitions">
