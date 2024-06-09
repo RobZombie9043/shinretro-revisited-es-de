@@ -15,9 +15,9 @@ Initial work on porting theme to ES-DE by [ant](https://github.com/anthonycacces
 
 Alekfull artwork created by [fagnerpc](https://github.com/fagnerpc)
 
-Android apps artwork - (https://wallpaperswide.com/android_robot_listening_to_music-wallpapers.html)
-Arcadia artwork - (https://arcadia.fun/)
-Emulators artwork - (https://wallpapers.com)
+Android apps artwork - (https://wallpaperswide.com/android_robot_listening_to_music-wallpapers.html)  
+Arcadia artwork - (https://arcadia.fun/)  
+Emulators artwork - (https://wallpapers.com)  
 
 Nexa Rust Slab Black Shadow 1 font by Fontfabric
 
