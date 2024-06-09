@@ -1,8 +1,6 @@
 # shinretro revisited (ES-DE)
 A port of the shinretro theme by [TiagraTT-Driver](https://github.com/TigraTT-Driver/shinretro) for ES-DE v3.0.
 
-Initial work on porting theme to ES-DE by [ant](https://github.com/anthonycaccese)
-
 ## **Preview**
 
 | System View |
