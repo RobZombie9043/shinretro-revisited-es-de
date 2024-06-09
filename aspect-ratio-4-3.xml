@@ -154,7 +154,7 @@ based on 1440x1080 [changes from 16:9]
 			<text name="game-name">
 				<pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
 				<size>0.39 0.12962962962963</size><!-- 800 140 [561.6 140] -->
-				<fontSize>0.043</fontSize><!-- 65 [46.4]-->
+				<fontSize>0.042</fontSize><!-- 65 [45.36]-->
 			</text>
 			<datetime name="game-release-year">
 				<pos>0.44 0.1574074074074074</pos><!-- 920 170 [633.6 170] -->
