@@ -28,7 +28,7 @@ based on 1440x1080 [changes from 16:9]
 		</image>
 		<carousel name="system-carousel">
 			<itemSize>0.2847222222222222 0.583333333333333</itemSize><!-- 410 630 [410 630]-->
-			<maxItemCount>6</maxItemCount> [6]
+			<maxItemCount>6</maxItemCount> <!-- 7 [6] -->
 		</carousel>
 		<image name="system-logo">
 			<pos>0.677083333333333 0.45</pos><!-- 1300 -->
@@ -110,18 +110,30 @@ based on 1440x1080 [changes from 16:9]
 			<text name="game-developer">
 				<pos>0.785 0.68</pos><!-- 1474.56 734.4 [1130.4 734.4] -->
 				<size>0.17 0.022222222222222</size><!-- x 24 -->
-				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+				<fontSize>${gamelistGridDeveloperFontSize}</fontSize><!-- 24 -->
 			</text>
 			<text name="game-description">
 				<pos>0.7 0.93</pos><!-- 1300 580 -->
 				<size>0.260416666666667 0.208</size><!-- 500 140 -->
-				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+				<fontSize>${gamelistGridDescriptionFontSize}</fontSize><!-- 24 -->
 			</text>
 			<video name="game-media">
 				<pos>0.822916666666667 0.3</pos><!-- 1580 270 -->
 				<cropSize>0.291666666666667 0.2916666666666667</cropSize><!-- 560 420 [420 315]-->
 			</video>
 		</view>
+		<fontSize name="medium">
+			<variables>
+				<gamelistGridDeveloperFontSize>0.022222222222222</gamelistGridDeveloperFontSize><!-- 24 -->
+				<gamelistGridDescriptionFontSize>0.022222222222222</gamelistGridDescriptionFontSize><!-- 24 -->
+			</variables>
+		</fontSize>
+		<fontSize name="large">
+			<variables>
+				<gamelistGridDeveloperFontSize>0.027777778</gamelistGridDeveloperFontSize><!-- 30 -->
+				<gamelistGridDescriptionFontSize>0.027777778</gamelistGridDescriptionFontSize><!-- 30 -->
+			</variables>
+		</fontSize>
 	</variant>
 
 	<!--
@@ -160,18 +172,30 @@ based on 1440x1080 [changes from 16:9]
 			<text name="game-developer">
 				<pos>0.13 0.34666667</pos> <!-- 211 374.4 [187.2 374.4] -->
 				<size>0.51166667 0.022222222222222</size><!-- x 24 [736.8 24]-->
-				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+				<fontSize>${gamelistCarouselDeveloperFontSize}</fontSize><!-- 24 -->
 			</text>
 			<text name="game-description">
 				<pos>0.041666666666667 0.59666667</pos><!-- 80 644.4 -->
 				<size>0.6 0.208</size><!-- 500 140 -->
-				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+				<fontSize>${gamelistCarouselDescriptionFontSize}</fontSize><!-- 24 -->
 			</text>
 			<video name="game-media">
 				<pos>0.822916666666667 0.36111111</pos><!-- 1580 390 -->
 				<cropSize>0.291666666666667 0.2916666666666667</cropSize><!-- 560 420 [420 315]-->
 			</video>
 		</view>
+		<fontSize name="medium">
+			<variables>
+				<gamelistCarouselDeveloperFontSize>0.022222222222222</gamelistCarouselDeveloperFontSize><!-- 24 -->
+				<gamelistCarouselDescriptionFontSize>0.022222222222222</gamelistCarouselDescriptionFontSize><!-- 24 -->
+			</variables>
+		</fontSize>
+		<fontSize name="large">
+			<variables>
+				<gamelistCarouselDeveloperFontSize>0.027777778</gamelistCarouselDeveloperFontSize><!-- 30 -->
+				<gamelistCarouselDescriptionFontSize>0.027777778</gamelistCarouselDescriptionFontSize><!-- 30 -->
+			</variables>
+		</fontSize>
 	</variant>
 
 </theme>

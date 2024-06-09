@@ -19,6 +19,14 @@
 	<aspectRatio>32:9</aspectRatio>
 	<aspectRatio>1:1</aspectRatio>
 	-->
+	
+	<!--
+	///
+	Font Size
+	///
+	-->
+	<fontSize>medium</fontSize>
+	<fontSize>large</fontSize>
    
     <colorScheme name="steamos">
 		<label>SteamOS</label>
