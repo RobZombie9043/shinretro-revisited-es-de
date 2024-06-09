@@ -213,9 +213,6 @@ license:       creative commons CC-BY-NC-SA
 		<text name="custom-collection-name">
 			<fontPath>${fontMedium}</fontPath>
 		</text>
-		<helpsystem name="help">
-			<origin>0 1</origin>
-		</helpsystem>
 	</view>
    
 	<!--
@@ -259,7 +256,7 @@ license:       creative commons CC-BY-NC-SA
 			</datetime>
 			<badges name="badges">
 				<lines>1</lines>
-				<itemsPerLine>8</itemsPerLine>
+				<itemsPerLine>9</itemsPerLine>
 				<slots>all</slots>
 				<customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
 				<customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>
@@ -344,7 +341,7 @@ license:       creative commons CC-BY-NC-SA
 			</datetime>
 			<badges name="badges">
 				<lines>1</lines>
-				<itemsPerLine>8</itemsPerLine>
+				<itemsPerLine>9</itemsPerLine>
 				<slots>all</slots>
 				<customBadgeIcon badge="folder">./_inc/images/badge-folder.svg</customBadgeIcon>
 				<customBadgeIcon badge="broken">./_inc/images/badge-broken.svg</customBadgeIcon>

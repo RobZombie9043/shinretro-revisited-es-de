@@ -70,9 +70,10 @@ based on 1728x1080
 			<maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
 		</image>
 		<helpsystem name="help">
+			<origin>0 1</origin>
 			<pos>0.046875 0.925</pos><!-- 90 999 -->
 		</helpsystem>
-		</view>
+	</view>
 		
 	<!--
 	///
@@ -96,7 +97,7 @@ based on 1728x1080
 			<datetime name="game-release-year">
 				<pos>0.7 0.462962962962963</pos><!-- 1344 500 -->
 				<size>0 0</size><!-- 510 200 -->
-				<fontSize>0.16</fontSize><!-- 172.8 -->
+				<fontSize>0.14</fontSize><!-- 172.8 [151.2] -->
 			</datetime>
 			<badges name="badges">
 				<pos>0.7 0.635</pos>

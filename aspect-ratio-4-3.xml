@@ -23,8 +23,8 @@ based on 1440x1080 [changes from 16:9]
 	-->
 	<view name="system">
 		<image name="background-diagonal">
-			<pos>0.098958333333333 0</pos><!-- 190 0 -->
-			<size>0.401041666666667 1</size><!-- 770 1080 -->
+			<pos>0.035 0</pos><!-- 190 0 [ 50.4 0]-->
+			<size>0.5347222222222222 1</size><!-- 770 1080 -->
 		</image>
 		<carousel name="system-carousel">
 			<itemSize>0.2847222222222222 0.583333333333333</itemSize><!-- 410 630 [410 630]-->
@@ -70,9 +70,10 @@ based on 1440x1080 [changes from 16:9]
 			<maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
 		</image>
 		<helpsystem name="help">
-			<pos>0.046875 0.965</pos><!-- 90 999 [67.5 1042.2]-->
+			<origin>0.5 1</origin>
+			<pos>0.5 0.965</pos><!-- 90 999 [67.5 1042.2]-->
 		</helpsystem>
-		</view>
+	</view>
 		
 	<!--
 	///
@@ -96,7 +97,7 @@ based on 1440x1080 [changes from 16:9]
 			<datetime name="game-release-year">
 				<pos>0.7 0.462962962962963</pos><!-- 1344 500 -->
 				<size>0 0</size><!-- 510 200 -->
-				<fontSize>0.14</fontSize><!-- 151.2 -->
+				<fontSize>0.12</fontSize><!-- 151.2 -->
 			</datetime>
 			<badges name="badges">
 				<pos>0.7 0.635</pos>

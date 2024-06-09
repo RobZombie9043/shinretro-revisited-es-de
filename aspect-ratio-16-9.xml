@@ -70,9 +70,10 @@ based on 1920x1080
 			<maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
 		</image>
 		<helpsystem name="help">
+			<origin>0 1</origin>
 			<pos>0.046875 0.925</pos><!-- 90 999 -->
 		</helpsystem>
-		</view>
+	</view>
 		
 	<!--
 	///

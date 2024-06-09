@@ -23,12 +23,12 @@ based on 2340x1080
 	-->
 	<view name="system">
 		<image name="background-diagonal">
-			<pos>0.098958333333333 0</pos><!-- 190 0 -->
-			<size>0.401041666666667 1</size><!-- 770 1080 -->
+			<pos>0.135 0</pos><!-- 190 0 [315.9 0] -->
+			<size>0.3290598290598291 1</size><!-- 770 1080 -->
 		</image>
 		<carousel name="system-carousel">
 			<itemSize>0.1752136752136752 0.583333333333333</itemSize><!-- 410 630 [410 630]-->
-			<maxItemCount>11</maxItemCount>
+			<maxItemCount>10</maxItemCount>
 		</carousel>
 		<image name="system-logo">
 			<pos>0.677083333333333 0.45</pos><!-- 1300 -->
@@ -70,9 +70,10 @@ based on 2340x1080
 			<maxSize>0.145833333333333 0.055555555555556</maxSize><!-- 280 60 -->
 		</image>
 		<helpsystem name="help">
+			<origin>0 1</origin>
 			<pos>0.046875 0.925</pos><!-- 90 999 -->
 		</helpsystem>
-		</view>
+	</view>
 		
 	<!--
 	///
