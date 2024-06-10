@@ -312,7 +312,7 @@ license:       creative commons CC-BY-NC-SA
 			<carousel name="game-list">
 				<imageType>cover, marquee</imageType> 
 				<textRelativeScale>0.9</textRelativeScale>
-				<textColor>ffffff</textColor>
+				<textColor>${gamelistMetadataColor}</textColor>
 				<fontPath>${fontMedium}</fontPath>
 				<unfocusedItemOpacity>1</unfocusedItemOpacity>
 				<unfocusedItemDimming>0.5</unfocusedItemDimming>			 
