@@ -32,9 +32,11 @@ A port of the shinretro theme by [TiagraTT-Driver](https://github.com/TigraTT-Dr
 
 Based on original neoretrō theme by [Valentin MEZIN](https://github.com/valsou) and shinretro theme by [TigraTT-Driver](https://github.com/TigraTT-Driver) including use of system artwork.  
 
-Initial work on porting theme to ES-DE by [ant](https://github.com/anthonycaccese)
+Custom sfx from shinretro theme by [RoeTaKa](https://www.youtube.com/channel/UCAbHcM41hzH9lku_3XqFYZg).  
 
-Alekfull artwork created by [fagnerpc](https://github.com/fagnerpc)
+Ported to ES-DE by [ant](https://github.com/anthonycaccese) and Rob Zombie.
+
+Alekfull system artwork created by [fagnerpc](https://github.com/fagnerpc)
 
 Android apps artwork - (https://wallpaperswide.com/android_robot_listening_to_music-wallpapers.html)  
 Arcadia artwork - (https://arcadia.fun/)  
