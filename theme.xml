@@ -238,13 +238,13 @@ license:       creative commons CC-BY-NC-SA
 			<text name="game-name">
 				<origin>0 0</origin>
 				<fontPath>${fontMediumSansSerif}</fontPath>
-				<verticalAlignment>top</verticalAlignment>
+				<verticalAlignment>bottom</verticalAlignment>
 				<lineSpacing>1</lineSpacing>
 				<color>${gamelistGridGameNameColor}</color>
 				<metadata>name</metadata>
 			</text>
 			<datetime name="game-release-year">
-				<origin>0 0</origin>
+				<origin>1 0</origin>
 				<fontPath>${fontShadow}</fontPath>
 				<verticalAlignment>top</verticalAlignment>
 				<lineSpacing>1</lineSpacing>
@@ -275,8 +275,48 @@ license:       creative commons CC-BY-NC-SA
 				<filledPath>./_inc/images/icon-star-filled.svg</filledPath>
 				<unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
 				<overlay>false</overlay>
-				<color>${gamelistGridMetadataColor}</color>
+				<color>ffe234</color>
 			</rating>
+			<image name="game-rating-background">
+				<origin>0 0</origin>
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>${backgroundColor}4D</color>
+				<zIndex>3</zIndex>
+				<metadataElement>true</metadataElement>
+			</image>
+			<text name="game-players-text">
+				<origin>0 0</origin>
+				<text>Players:</text>
+				<fontPath>${fontMedium}</fontPath>
+				<lineSpacing>1.5</lineSpacing>
+				<color>${gamelistGridMetadataColor}</color>
+				<backgroundColor>${backgroundColor}4D</backgroundColor>
+				<verticalAlignment>center</verticalAlignment>
+				<metadataElement>true</metadataElement>
+			</text>
+			<text name="game-players-number">
+				<origin>0 0</origin>
+				<metadata>players</metadata>
+				<defaultValue>-</defaultValue>
+				<fontPath>${fontMedium}</fontPath>
+				<lineSpacing>1.5</lineSpacing>
+				<color>${gamelistGridMetadataColor}</color>
+				<backgroundColor>${backgroundColor}4D</backgroundColor>
+				<verticalAlignment>center</verticalAlignment>
+				<horizontalAlignment>left</horizontalAlignment>
+			</text>
+			<text name="game-genre">
+				<origin>0 0</origin>
+				<metadata>genre</metadata>
+				<defaultValue>Genre Unknown</defaultValue>
+				<fontPath>${fontMedium}</fontPath>
+				<lineSpacing>1.5</lineSpacing>
+				<!-- <defaultValue>:space:</defaultValue> -->
+				<color>${gamelistGridMetadataColor}</color>
+				<backgroundColor>${backgroundColor}4D</backgroundColor>
+				<verticalAlignment>center</verticalAlignment>
+			</text>
 			<text name="game-developer">
 				<origin>0 0</origin>
 				<metadata>developer</metadata>
@@ -286,7 +326,7 @@ license:       creative commons CC-BY-NC-SA
 				<color>${gamelistGridMetadataColor}</color>
 			</text>
 			<text name="game-description">
-				<origin>0 1</origin>
+				<origin>0 0</origin>
 				<fontPath>${fontMedium}</fontPath>
 				<verticalAlignment>top</verticalAlignment>
 				<color>${gamelistGridMetadataColor}</color>
@@ -324,15 +364,16 @@ license:       creative commons CC-BY-NC-SA
 				<origin>0 0</origin>
 				<fontPath>${fontMediumSansSerif}</fontPath>
 				<lineSpacing>1</lineSpacing>
-				<verticalAlignment>top</verticalAlignment>
+				<verticalAlignment>bottom</verticalAlignment>
 				<color>${gamelistGameNameColor}</color>
 				<metadata>name</metadata>
 			</text>
 			<datetime name="game-release-year">
-				<origin>0 0</origin>
+				<origin>1 0</origin>
 				<fontPath>${fontShadow}</fontPath>
 				<lineSpacing>1</lineSpacing>
 				<verticalAlignment>top</verticalAlignment>
+				<horizontalAlignment>right</horizontalAlignment>
 				<color>${gamelistGameNameColor}</color>
 				<opacity>0.4</opacity>
 				<metadata>releasedate</metadata>
@@ -362,8 +403,17 @@ license:       creative commons CC-BY-NC-SA
 				<filledPath>./_inc/images/icon-star-filled.svg</filledPath>
 				<unfilledPath>./_inc/images/icon-star-unfilled.svg</unfilledPath>
 				<overlay>false</overlay>
-				<color>${gamelistMetadataColor}</color>
+				<color>ffe234</color>
 			</rating>
+			<image name="game-rating-background">
+				<origin>0 0</origin>
+				<path>${spacerImage}</path>
+				<tile>true</tile>
+				<color>${backgroundColor}80</color>
+				<zIndex>3</zIndex>
+				<metadataElement>true</metadataElement>
+				<visible>false</visible>
+			</image>
 			<text name="game-developer">
 				<origin>0 0</origin>
 				<metadata>developer</metadata>
@@ -371,6 +421,38 @@ license:       creative commons CC-BY-NC-SA
 				<lineSpacing>1</lineSpacing>
 				<defaultValue>:space:</defaultValue>
 				<color>${gamelistMetadataColor}</color>
+			</text>
+			<text name="game-players-text">
+				<origin>0 0</origin>
+				<text>Players:</text>
+				<fontPath>${fontMedium}</fontPath>
+				<lineSpacing>1.5</lineSpacing>
+				<color>${gamelistMetadataColor}</color>
+				<backgroundColor>${backgroundColor}80</backgroundColor>
+				<verticalAlignment>center</verticalAlignment>
+				<metadataElement>true</metadataElement>
+			</text>
+			<text name="game-players-number">
+				<origin>0 0</origin>
+				<metadata>players</metadata>
+				<defaultValue>-</defaultValue>
+				<fontPath>${fontMedium}</fontPath>
+				<lineSpacing>1.5</lineSpacing>
+				<color>${gamelistMetadataColor}</color>
+				<backgroundColor>${backgroundColor}80</backgroundColor>
+				<verticalAlignment>center</verticalAlignment>
+				<horizontalAlignment>left</horizontalAlignment>
+			</text>
+			<text name="game-genre">
+				<origin>0 0</origin>
+				<metadata>genre</metadata>
+				<defaultValue>Genre Unknown</defaultValue>
+				<fontPath>${fontMedium}</fontPath>
+				<lineSpacing>1.5</lineSpacing>
+				<!-- <defaultValue>:space:</defaultValue> -->
+				<color>${gamelistMetadataColor}</color>
+				<backgroundColor>${backgroundColor}80</backgroundColor>
+				<verticalAlignment>center</verticalAlignment>
 			</text>
 			<text name="game-description">
 				<origin>0 1</origin>

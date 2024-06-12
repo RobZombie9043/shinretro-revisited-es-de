@@ -91,30 +91,49 @@ based on 1728x1080
 			</grid>
 			<text name="game-name">
 				<pos>0.7 0.5</pos><!-- 1344 540 -->
-				<size>0.265625 0.12962962962963</size><!-- 510 140 -->
+				<size>0.265625 0.0787037037</size><!-- 510 85 -->
 				<fontSize>0.038888888888889</fontSize><!-- 42 -->
 			</text>
 			<datetime name="game-release-year">
-				<pos>0.7 0.462962962962963</pos><!-- 1344 500 -->
+				<pos>0.960416666666667 0.462962962962963</pos><!-- 1620 500 -->
 				<size>0 0</size><!-- 510 200 -->
 				<fontSize>0.14</fontSize><!-- 172.8 [151.2] -->
 			</datetime>
 			<badges name="badges">
-				<pos>0.7 0.635</pos>
+				<pos>0.77662 0.62037</pos> 										<!-- check width-->
 				<size>0.26875 0.018518518518519</size><!-- 516 20 -->
 				<itemMargin>0.002 -1</itemMargin>
 			</badges>
 			<rating name="game-rating">
-				<pos>0.7 0.68</pos>
+				<pos>0.7 0.625</pos>
 				<size>0 0.02037037037037</size><!-- x 22 -->
 			</rating>
+			<image name="game-rating-background">
+				<pos>0.69895833 0.62037</pos> <!--game rating pos-5 game rating pos - 5  **badge h pos**    -->
+				<size>0.0665509 0.0296296</size><!-- w = (game-rating height*5 / aspect ratio height) + border  h = game-rating height + border -->
+			</image>
+			<text name="game-players-text">
+				<pos>0.7 0.667</pos> <!-- 1344 **720** -->
+				<size>0.054 0</size><!-- x 32 -->
+				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+			</text>
+			<text name="game-players-number">
+				<pos>0.754 0.667</pos> <!-- 1444 **720** -->
+				<size>0 0</size><!-- x 32 -->
+				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+			</text>
+			<text name="game-genre">
+				<pos>0.78 0.667</pos> <!-- 1544 **720** -->
+				<size>0 0</size><!-- **1800-pos=256** 32 -->
+				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+			</text>
 			<text name="game-developer">
-				<pos>0.768 0.68</pos><!-- 1474.56 734.4 -->
-				<size>0.17 0.022222222222222</size><!-- x 24 -->
+				<pos>0.7 0.5833333</pos><!-- 1344 630 -->
+				<size>0.265625 0.022222222222222</size><!--  24 -->
 				<fontSize>${gamelistGridDeveloperFontSize}</fontSize><!-- 24 -->
 			</text>
 			<text name="game-description">
-				<pos>0.7 0.93</pos><!-- 1300 580 -->
+				<pos>0.7 0.7083333</pos><!-- 1300 765 -->
 				<size>0.260416666666667 0.208</size><!-- 500 140 -->
 				<fontSize>${gamelistGridDescriptionFontSize}</fontSize><!-- 24 -->
 			</text>
@@ -125,12 +144,14 @@ based on 1728x1080
 		</view>
 		<fontSize name="medium">
 			<variables>
+				<gamelistGridGenreFontSize>0.022222222222222</gamelistGridGenreFontSize><!-- 24 -->
 				<gamelistGridDeveloperFontSize>0.022222222222222</gamelistGridDeveloperFontSize><!-- 24 -->
 				<gamelistGridDescriptionFontSize>0.022222222222222</gamelistGridDescriptionFontSize><!-- 24 -->
 			</variables>
 		</fontSize>
 		<fontSize name="large">
 			<variables>
+				<gamelistGridGenreFontSize>0.027777778</gamelistGridGenreFontSize><!-- 30 -->
 				<gamelistGridDeveloperFontSize>0.027777778</gamelistGridDeveloperFontSize><!-- 30 -->
 				<gamelistGridDescriptionFontSize>0.027777778</gamelistGridDescriptionFontSize><!-- 30 -->
 			</variables>
@@ -152,7 +173,7 @@ based on 1728x1080
 				<fontSize>0.02</fontSize>
 			</carousel>
 			<text name="game-name">
-				<pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
+				<pos>0.041666666666667 0.12037</pos><!-- 80 180 -->
 				<size>0.4166666666666667 0.12962962962963</size><!-- 800 140 -->
 				<fontSize>0.0601851851851852</fontSize><!-- 65 -->
 			</text>
@@ -162,18 +183,37 @@ based on 1728x1080
 				<fontSize>0.1</fontSize><!-- 108 -->
 			</datetime>
 			<badges name="badges">
-				<pos>0.041666666666667 0.30166667</pos> <!-- 80 325.8 -->
+				<pos>0.11770833 0.299999629</pos> <!-- 80 325.8 -->
 				<size>0.26875 0.018518518518519</size><!-- 516 20 -->
 				<itemMargin>0.002 -1</itemMargin>
 			</badges>
 			<rating name="game-rating">
-				<pos>0.041666666666667 0.34666667</pos> <!-- 80 374.4 -->
+				<pos>0.041666666666667 0.3046296</pos> <!-- 80 374.4 -->
 				<size>0 0.02037037037037</size><!-- x 22 -->
 			</rating>
+			<image name="game-rating-background">
+				<pos>0.040624997 0.299999629</pos> <!--game rating pos-5 game rating pos - 5  **badge h pos**    -->
+				<size>0.0665509 0.0296296</size><!-- w = (game-rating height*5 / aspect ratio height) + border  h = game-rating height + border -->
+			</image>
 			<text name="game-developer">
-				<pos>0.10989583 0.34666667</pos> <!-- 211 374.4 -->
+				<pos>0.041666666666667 0.263888</pos> <!-- 211 374.4 -->
 				<size>0.5317 0.022222222222222</size><!-- x 24 [918 24]-->
 				<fontSize>${gamelistCarouselDeveloperFontSize}</fontSize><!-- 24 -->
+			</text>
+			<text name="game-players-text">
+				<pos>0.041666666666667 0.3435185</pos> <!-- 80 **371** -->
+				<size>0.056 0</size><!-- x 32 -->
+				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+			</text>
+			<text name="game-players-number">
+				<pos>0.097666667 0.3435185</pos> <!-- ** **371** -->
+				<size>0 0</size><!-- x 32 -->
+				<fontSize>0.022222222222222</fontSize><!-- 24 -->
+			</text>
+			<text name="game-genre">
+				<pos>0.127314 0.3435185</pos> <!-- ** ** **371** -->
+				<size>0 0</size><!-- **1800-pos=256** 32 -->
+				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
 			<text name="game-description">
 				<pos>0.041666666666667 0.59666667</pos><!-- 80 644.4 -->
