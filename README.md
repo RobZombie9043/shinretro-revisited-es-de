@@ -9,7 +9,7 @@ A port of the shinretro theme by [TiagraTT-Driver](https://github.com/TigraTT-Dr
 
 | Gamelist View: Carousel | Gamelist View: Grid |
 |----|----|
-| ![16-9 carousel](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/32405405-4602-4b5a-b8f1-a3457239d0ce) | ![16-9 grid](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/f7a5ff56-c1e4-4a05-8654-0a6d04b7589f) |
+| ![16-9 carousel](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/c0967b7f-4abd-4d5c-a538-e54c31ba1222) | ![16-9 grid](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/7ff9a051-724b-4a2e-ab02-3b019df0d19f) |
 
 ## **Configuration Options**
 
