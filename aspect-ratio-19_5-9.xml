@@ -100,8 +100,8 @@ based on 2340x1080
 				<fontSize>0.16</fontSize><!-- 172.8 -->
 			</datetime>
 			<badges name="badges">
-				<pos>0.755555 0.62037</pos>
-				<size>0.26875 0.018518518518519</size><!-- 516 20 -->
+				<pos>0.765 0.62037</pos>
+				<size>0.19541666667 0.018518518518519</size><!-- 516 20 -->
 				<itemMargin>0.002 -1</itemMargin>
 			</badges>
 			<rating name="game-rating">
@@ -114,17 +114,17 @@ based on 2340x1080
 			</image>
 			<text name="game-players-text">
 				<pos>0.7 0.667</pos> <!-- 1344 **720** -->
-				<size>0.04184 0</size><!-- x 32 -->
+				<size>0.04184 0.022222222222222</size><!-- x 32 -->
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
 			<text name="game-players-number">
 				<pos>0.74184 0.667</pos> <!-- 1444 **720** -->
-				<size>0 0</size><!-- x 32 -->
+				<size>0.02316 0.022222222222222</size><!-- x 32 -->
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
 			<text name="game-genre">
 				<pos>0.765 0.667</pos> <!-- 1544 **720** -->
-				<size>0 0</size><!-- **1800-pos=256** 32 -->
+				<size>0.19541666667 0.022222222222222</size><!-- **1800-pos=256** 32 -->
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
 			<text name="game-developer">
@@ -133,7 +133,7 @@ based on 2340x1080
 				<fontSize>${gamelistGridDeveloperFontSize}</fontSize><!-- 24 -->
 			</text>
 			<text name="game-description">
-				<pos>0.7 0.70833333</pos><!-- 1300 580 -->
+				<pos>0.7 0.709</pos><!-- 1300 580 -->
 				<size>0.260416666666667 0.208</size><!-- 500 140 -->
 				<fontSize>${gamelistGridDescriptionFontSize}</fontSize><!-- 24 -->
 			</text>
@@ -183,7 +183,7 @@ based on 2340x1080
 				<fontSize>0.1</fontSize><!-- 108 -->
 			</datetime>
 			<badges name="badges">
-				<pos>0.10336667 0.299999629</pos> <!-- 80 325.8 -->
+				<pos>0.10666667 0.299999629</pos> <!-- 80 325.8 -->
 				<size>0.26875 0.018518518518519</size><!-- 516 20 -->
 				<itemMargin>0.002 -1</itemMargin>
 			</badges>
@@ -216,7 +216,7 @@ based on 2340x1080
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
 			<text name="game-description">
-				<pos>0.041666666666667 0.59666667</pos><!-- 80 644.4 -->
+				<pos>0.041666666666667 0.38240741</pos><!-- 80 644.4 -->
 				<size>0.6 0.208</size><!-- 500 140 -->
 				<fontSize>${gamelistCarouselDescriptionFontSize}</fontSize><!-- 24 -->
 			</text>
