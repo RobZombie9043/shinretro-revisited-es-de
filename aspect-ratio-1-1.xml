@@ -85,7 +85,7 @@ based on 1080x1080 [changes from 16:9]
 			<grid name="game-list">
 				<pos>0.041666666666667 0.19</pos><!-- 80 180 [60 205.2] -->
 				<size>0.583333333333333 0.694444444444444</size><!-- 1120 750 -->
-				<itemSize>0.135416666666667 0.212962962962963</itemSize><!-- 260 230 -->
+				<itemSize>0.1878 0.212962962962963</itemSize><!-- 260 230 -->
 				<itemSpacing>0.005208333333333 -1</itemSpacing><!-- 10 -->
 				<fontSize>0.02</fontSize>
 			</grid>
