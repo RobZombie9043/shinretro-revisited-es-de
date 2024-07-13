@@ -15,7 +15,7 @@ A port of the shinretro theme by [TiagraTT-Driver](https://github.com/TigraTT-Dr
 
 - The theme has a simple set of options that can be changed directly from the UI Settings menu of ES-DE 
 - `Theme Aspect Ratio` - sets the aspect ratio the theme will render at. If needed, this can be changed to match the aspect ratio of your screen (though it should happen automatically).
-   - 16:9, 16:10, 4:3 and 19.5:9 are supported
+   - `16:9`, `16:10`, `4:3`, `1:1` and `19.5:9` are supported
 - `Theme Variant` - sets the layout used for the gamelist view when media & metadata are scraped for your games.  There are 2 variants to choose from:
    - `Grid` - A grid game selection with detailed metadata.
    - `Carousel` - A carousel game selection with detailed metadata.
