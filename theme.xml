@@ -337,6 +337,7 @@ license:       creative commons CC-BY-NC-SA
 				<origin>0.5 0.5</origin>
 				<imageType>miximage,screenshot</imageType>
 				<delay>1.5</delay>
+				<pillarboxes>false</pillarboxes>
 			</video>
 		</view>
 	</variant>
@@ -463,6 +464,7 @@ license:       creative commons CC-BY-NC-SA
 				<origin>0.5 0.5</origin>
 				<imageType>miximage,screenshot</imageType>
 				<delay>1.5</delay>
+				<pillarboxes>false</pillarboxes>
 		</video>
 		</view>
 	</variant>
@@ -483,6 +485,9 @@ license:       creative commons CC-BY-NC-SA
 	</aspectRatio>
 	<aspectRatio name="19.5:9">
 		<include>./aspect-ratio-19_5-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="1:1">
+		<include>./aspect-ratio-1-1.xml</include>
 	</aspectRatio>
 	
 	<!--
