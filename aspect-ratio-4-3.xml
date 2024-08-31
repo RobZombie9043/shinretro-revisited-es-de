@@ -204,11 +204,11 @@ based on 1440x1080 [changes from 16:9]
 			</text>
 			<text name="game-players-text">
 				<pos>0.041666666666667 0.3435185</pos> <!-- 80 **371** -->
-				<size>0.066 0</size><!-- x 32 -->
+				<size>0.067 0</size><!-- x 32 -->
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
 			<text name="game-players-number">
-				<pos>0.107666667 0.3435185</pos> <!-- ** **371** -->
+				<pos>0.110666667 0.3435185</pos> <!-- ** **371** -->
 				<size>0 0</size><!-- x 32 -->
 				<fontSize>0.022222222222222</fontSize><!-- 24 -->
 			</text>
