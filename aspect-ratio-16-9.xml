@@ -15,7 +15,7 @@ based on 1920x1080
 			<fontSizeDimmed>0.026</fontSizeDimmed><!-- 28 -->
 		</helpsystem>
 	</view>
-
+	
 	<!--
 	///
 	System View
@@ -81,6 +81,11 @@ based on 1920x1080
 	///
 	-->
 	<variant name="grid">
+		<view name="system,gamelist">
+			<systemstatus name="system-status">
+				<pos>0.96875 0.012777</pos>
+			</systemstatus>
+		</view>
 		<view name="gamelist">
 			<grid name="game-list">
 				<pos>0.041666666666667 0.166666666666667</pos><!-- 80 180 -->
@@ -164,6 +169,11 @@ based on 1920x1080
 	///
 	-->
 	<variant name="carousel">
+		<view name="system,gamelist">
+			<systemstatus name="system-status">
+				<pos>0.96875 0.03129629</pos>
+			</systemstatus>
+		</view>
 		<view name="gamelist">
 			<carousel name="game-list">
 				<pos>0 0.59666667</pos><!-- 0 644.4  -->

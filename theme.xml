@@ -31,6 +31,7 @@ license:       creative commons CC-BY-NC-SA
 			<gamelistGridColor>11111100</gamelistGridColor>
 			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
 			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+			<gamelistGridNameFallbackColor>ffffffB3</gamelistGridNameFallbackColor>
 			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
 			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
 			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
@@ -49,6 +50,7 @@ license:       creative commons CC-BY-NC-SA
 			<gamelistGridColor>2B2F3800</gamelistGridColor>
 			<gamelistGameNameColor>666666</gamelistGameNameColor>
 			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+			<gamelistGridNameFallbackColor>11111180</gamelistGridNameFallbackColor>
 			<gamelistMetadataColor>808080</gamelistMetadataColor>
 			<gamelistGridMetadataColor>ffffff</gamelistGridMetadataColor>
 			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
@@ -67,6 +69,7 @@ license:       creative commons CC-BY-NC-SA
 			<gamelistGridColor>2B2F3800</gamelistGridColor>
 			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
 			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+			<gamelistGridNameFallbackColor>ffffffB3</gamelistGridNameFallbackColor>
 			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
 			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
 			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
@@ -85,6 +88,7 @@ license:       creative commons CC-BY-NC-SA
 			<gamelistGridColor>25283B00</gamelistGridColor>
 			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
 			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
+			<gamelistGridNameFallbackColor>ffffffB3</gamelistGridNameFallbackColor>
 			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
 			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
 			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
@@ -117,6 +121,14 @@ license:       creative commons CC-BY-NC-SA
 			<iconColorDimmed>cccccc</iconColorDimmed>
 			<opacityDimmed>1.0</opacityDimmed>
 		</helpsystem>
+		<systemstatus name="system-status">
+			<origin>1 0</origin>
+			<fontPath>${fontMedium}</fontPath>
+			<height>0.030</height>
+		</systemstatus>
+		<clock name="clock">
+			<opacity>0</opacity>
+		</clock>
 	</view>
 
    <!--
@@ -227,7 +239,7 @@ license:       creative commons CC-BY-NC-SA
 				<imageRelativeScale>0.9</imageRelativeScale>
 				<backgroundColor>${gamelistGridColor}</backgroundColor>
 				<textRelativeScale>0.9</textRelativeScale>
-				<textColor>${gamelistGridMetadataColor}</textColor>
+				<textColor>${gamelistGridNameFallbackColor}</textColor>
 				<fontPath>${fontMedium}</fontPath>
 				<lineSpacing>1</lineSpacing>
 				<imageType>cover, marquee</imageType>
