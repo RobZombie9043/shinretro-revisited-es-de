@@ -124,10 +124,20 @@ license:       creative commons CC-BY-NC-SA
 		<systemstatus name="system-status">
 			<origin>1 0</origin>
 			<fontPath>${fontMedium}</fontPath>
+<<<<<<< Updated upstream
 			<height>0.030</height>
 		</systemstatus>
 		<clock name="clock">
 			<opacity>0</opacity>
+=======
+			<color>${helpTextColor}</color>
+			<height>0.026</height>
+		</systemstatus>
+		<clock name="clock">
+			<fontPath>${fontMedium}</fontPath>
+			<color>${helpTextColor}</color>
+			<fontSize>0.026</fontSize>
+>>>>>>> Stashed changes
 		</clock>
 	</view>
 
@@ -478,7 +488,7 @@ license:       creative commons CC-BY-NC-SA
 				<imageType>miximage,screenshot</imageType>
 				<delay>1.5</delay>
 				<pillarboxes>false</pillarboxes>
-		</video>
+			</video>
 		</view>
 	</variant>
 	
