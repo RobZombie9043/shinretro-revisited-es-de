@@ -92,11 +92,6 @@ based on 1080x1080 [changes from 16:9]
 	///
 	-->
 	<variant name="grid">
-		<view name="system,gamelist">
-			<systemstatus name="system-status">
-				<pos>0.96875 0.03129629</pos>
-			</systemstatus>
-		</view>
 		<view name="gamelist">
 			<grid name="game-list">
 				<pos>0.041666666666667 0.19</pos><!-- 80 180 [60 205.2] -->
@@ -182,11 +177,6 @@ based on 1080x1080 [changes from 16:9]
 	///
 	-->
 	<variant name="carousel">
-		<view name="system,gamelist">
-			<systemstatus name="system-status">
-				<pos>0.96875 0.03129629</pos>
-			</systemstatus>
-		</view>
 		<view name="gamelist">
 			<carousel name="game-list">
 				<pos>0 0.62</pos><!-- 0 644.4 [0 669.6] -->

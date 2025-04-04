@@ -81,12 +81,6 @@ based on 2340x1080
 	///
 	-->
 	<variant name="grid">
-<<<<<<< Updated upstream
-		<view name="system,gamelist">
-			<systemstatus name="system-status">
-				<pos>0.9425748 0.012777</pos>
-			</systemstatus>
-=======
 		<view name="system">
 			<systemstatus name="system-status">
 				<pos>0.96875 0.012777</pos>
@@ -95,7 +89,6 @@ based on 2340x1080
 				<origin>0 0</origin>
 				<pos>0.03125 0.012777</pos>
 			</clock>
->>>>>>> Stashed changes
 		</view>
 		<view name="gamelist">
 			<grid name="game-list">
@@ -192,15 +185,12 @@ based on 2340x1080
 				<pos>0.96875 0.03129629</pos>
 			</systemstatus>
 		</view>
-<<<<<<< Updated upstream
-=======
 		<view name="system">
 			<clock name="clock">
 				<origin>0 0</origin>
 				<pos>0.03125 0.03129629</pos>
 			</clock>
 		</view>
->>>>>>> Stashed changes
 		<view name="gamelist">
 			<carousel name="game-list">
 				<pos>0 0.59666667</pos><!-- 0 644.4  -->

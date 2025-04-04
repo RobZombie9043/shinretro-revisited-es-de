@@ -5,11 +5,11 @@ A port of the shinretro theme by [TiagraTT-Driver](https://github.com/TigraTT-Dr
 
 | System View |
 |----|
-| ![Screenshot_20240929-231025](https://github.com/user-attachments/assets/b91d7082-3049-4320-9b85-36a7231f98ea) | 
+| ![16-9 system](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/ced45973-59c1-4456-9a07-b881d93c4d59) | 
 
 | Gamelist View: Carousel | Gamelist View: Grid |
 |----|----|
-| ![Screenshot_20240929-231102](https://github.com/user-attachments/assets/2662c9d9-82d5-484c-8f12-60e2e77a6be5) | ![Screenshot_20240929-231040](https://github.com/user-attachments/assets/28cb13e5-76df-4b8c-ae94-fbf213ce3715) |
+| ![16-9 carousel](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/c0967b7f-4abd-4d5c-a538-e54c31ba1222) | ![16-9 grid](https://github.com/RobZombie9043/shinretro-revisited-es-de/assets/77545967/7ff9a051-724b-4a2e-ab02-3b019df0d19f) |
 
 ## **Configuration Options**
 
