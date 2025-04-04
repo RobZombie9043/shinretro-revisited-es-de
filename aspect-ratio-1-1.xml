@@ -14,6 +14,9 @@ based on 1080x1080 [changes from 16:9]
 			<fontSize>0.020</fontSize><!-- 22 -->
 			<fontSizeDimmed>0.026</fontSizeDimmed><!-- 28 -->
 		</helpsystem>
+		<systemstatus name="system-status">
+			<pos>0.96875 0.03129629</pos>
+		</systemstatus>
 	</view>
 
 	<!--
@@ -47,6 +50,10 @@ based on 1080x1080 [changes from 16:9]
 		<helpsystem name="help">
 			<pos>0.7 .91</pos>
 		</helpsystem>
+		<clock name="clock">
+			<origin>0 0</origin>
+			<pos>0.03125 0.03129629</pos>
+		</clock>
 	</view>
 
 	<!--
@@ -73,6 +80,10 @@ based on 1080x1080 [changes from 16:9]
 			<origin>0.5 1</origin>
 			<pos>0.5 0.965</pos><!-- 90 999 [67.5 1042.2]-->
 		</helpsystem>
+		<clock name="clock">
+			<origin>0.5 0</origin>
+			<pos>0.5 0.03129629</pos>
+		</clock>
 	</view>
 		
 	<!--
@@ -81,6 +92,11 @@ based on 1080x1080 [changes from 16:9]
 	///
 	-->
 	<variant name="grid">
+		<view name="system,gamelist">
+			<systemstatus name="system-status">
+				<pos>0.96875 0.03129629</pos>
+			</systemstatus>
+		</view>
 		<view name="gamelist">
 			<grid name="game-list">
 				<pos>0.041666666666667 0.19</pos><!-- 80 180 [60 205.2] -->
@@ -166,6 +182,11 @@ based on 1080x1080 [changes from 16:9]
 	///
 	-->
 	<variant name="carousel">
+		<view name="system,gamelist">
+			<systemstatus name="system-status">
+				<pos>0.96875 0.03129629</pos>
+			</systemstatus>
+		</view>
 		<view name="gamelist">
 			<carousel name="game-list">
 				<pos>0 0.62</pos><!-- 0 644.4 [0 669.6] -->
