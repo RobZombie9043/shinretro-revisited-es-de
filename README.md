@@ -27,6 +27,15 @@ A port of the shinretro theme by [TiagraTT-Driver](https://github.com/TigraTT-Dr
 - `Theme Font Size` - enables you to change the size of the fonts displayed in the theme. There are 2 sizes to choose from:
    - `medium`
    - `large`
+
+## **Theme Customization**
+
+- Create a folder called `theme-customizations` in the main shinretro theme folder and then create a subfolder named `artwork` resulting in a folder structure `~ES-DE/themes/shinretro-revisited-es-de/theme-customizations/artwork/`
+- Copy your custom carousel images to that `artwork` folder
+- They should be named `${system.theme}.webp`, For example for `snes` you would create an image called `snes.webp`
+  - Note that custom images only need to be supplied for the systems to be customized and the default system image will be used for any other systems.
+  - The carousel images use an aspect ratio of 0.65:1 so if images that are provided use a different aspect ratio to this they will be cropped which may cut off parts of the image and not look good.
+- Change the theme color scheme to one of the color schemes with `Custom` in the name and the artwork from the custom folder will be used.
  
 ## **Acknowledgements**
 
