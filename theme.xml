@@ -17,83 +17,10 @@ license:       creative commons CC-BY-NC-SA
 		<fontMedium>./_inc/fonts/Montserrat-Medium.ttf</fontMedium>
 		<fontShadow>./_inc/fonts/nexa-rust.slab-black-shadow-01.otf</fontShadow>
 	</variables>
-
-	<colorScheme name="dark">
-		<variables>
-			<backgroundColor>111111</backgroundColor>
-			<backgroundHighlightColor>1a1a1a</backgroundHighlightColor>
-			<helpIconColor>ffffff77</helpIconColor>
-			<helpTextColor>ffffff77</helpTextColor>
-			<systemLogoColor>ffffff</systemLogoColor>
-			<systemCarouselColor>424242</systemCarouselColor>
-			<systemGameCountColor>ecb83b</systemGameCountColor>
-			<systemMetadataColor>ffffffbb</systemMetadataColor>
-			<gamelistGridColor>11111100</gamelistGridColor>
-			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
-			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-			<gamelistGridNameFallbackColor>ffffffB3</gamelistGridNameFallbackColor>
-			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
-			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
-			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
-		</variables>
-	</colorScheme>
-	<colorScheme name="light">
-		<variables>
-			<backgroundColor>ffffff</backgroundColor>
-			<backgroundHighlightColor>2C345F</backgroundHighlightColor>
-			<helpIconColor>11111177</helpIconColor>
-			<helpTextColor>11111177</helpTextColor>
-			<systemLogoColor>ffffff</systemLogoColor>
-			<systemCarouselColor>b2b2b2</systemCarouselColor>
-			<systemGameCountColor>3fbecb</systemGameCountColor>
-			<systemMetadataColor>ffffff</systemMetadataColor>
-			<gamelistGridColor>2B2F3800</gamelistGridColor>
-			<gamelistGameNameColor>666666</gamelistGameNameColor>
-			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-			<gamelistGridNameFallbackColor>11111180</gamelistGridNameFallbackColor>
-			<gamelistMetadataColor>808080</gamelistMetadataColor>
-			<gamelistGridMetadataColor>ffffff</gamelistGridMetadataColor>
-			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
-		</variables>
-	</colorScheme>
-	<colorScheme name="steamos">
-		<variables>
-			<backgroundColor>2B2F38</backgroundColor>
-			<backgroundHighlightColor>2C345F</backgroundHighlightColor>
-			<helpIconColor>ffffff77</helpIconColor>
-			<helpTextColor>ffffff77</helpTextColor>
-			<systemLogoColor>ffffff</systemLogoColor>
-			<systemCarouselColor>424242</systemCarouselColor>
-			<systemGameCountColor>1A9FFF</systemGameCountColor>
-			<systemMetadataColor>ffffffbb</systemMetadataColor>
-			<gamelistGridColor>2B2F3800</gamelistGridColor>
-			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
-			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-			<gamelistGridNameFallbackColor>ffffffB3</gamelistGridNameFallbackColor>
-			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
-			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
-			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
-		</variables>
-	</colorScheme>
-	<colorScheme name="shinretro-dark">
-		<variables>
-			<backgroundColor>25283B</backgroundColor>
-			<backgroundHighlightColor>2C345F</backgroundHighlightColor>
-			<helpIconColor>ffffff77</helpIconColor>
-			<helpTextColor>ffffff77</helpTextColor>
-			<systemLogoColor>ffffff</systemLogoColor>
-			<systemCarouselColor>2C345F</systemCarouselColor>
-			<systemGameCountColor>757BA0</systemGameCountColor>
-			<systemMetadataColor>ffffffbb</systemMetadataColor>
-			<gamelistGridColor>25283B00</gamelistGridColor>
-			<gamelistGameNameColor>ffffff</gamelistGameNameColor>
-			<gamelistGridGameNameColor>ffffff</gamelistGridGameNameColor>
-			<gamelistGridNameFallbackColor>ffffffB3</gamelistGridNameFallbackColor>
-			<gamelistMetadataColor>ffffffB3</gamelistMetadataColor>
-			<gamelistGridMetadataColor>ffffffB3</gamelistGridMetadataColor>
-			<gamelistBadgeColor>ffffff</gamelistBadgeColor>
-		</variables>
-	</colorScheme>
+	
+	<include>./colors.xml</include>
+	
+	
 
 	<!--
 	///
@@ -158,8 +85,8 @@ license:       creative commons CC-BY-NC-SA
 			<imageSelectedColor>ffffff</imageSelectedColor>
 			<itemScale>1.2</itemScale>
 			<imageFit>cover</imageFit>
-			<staticImage>./_inc/systems/artwork/${system.theme}.jpg</staticImage>
-			<defaultImage>./_inc/systems/artwork/_default.png</defaultImage>
+			<staticImage>${backgroundArtPath}</staticImage>
+			<defaultImage>${backgroundDefaultArtPath}</defaultImage>
 			<fastScrolling>true</fastScrolling>
 			<color>00000000</color>
 			<zIndex>2</zIndex>

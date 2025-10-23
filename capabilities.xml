@@ -27,7 +27,7 @@
 	-->
 	<fontSize>medium</fontSize>
 	<fontSize>large</fontSize>
-   
+	
     <colorScheme name="dark">
         <label>Dark</label>
     </colorScheme>
@@ -39,6 +39,18 @@
     </colorScheme>
 	<colorScheme name="shinretro-dark">
         <label>shinretro Dark</label>
+    </colorScheme>
+	<colorScheme name="dark-custom">
+        <label>Custom - Dark</label>
+    </colorScheme>
+	<colorScheme name="light-custom">
+        <label>Custom - Light</label>
+    </colorScheme>
+	    <colorScheme name="steamos-custom">
+		<label>Custom - SteamOS</label>
+    </colorScheme>
+	<colorScheme name="shinretro-dark-custom">
+        <label>Custom - shinretro Dark</label>
     </colorScheme>
 	
 	<transitions name="transitions">
